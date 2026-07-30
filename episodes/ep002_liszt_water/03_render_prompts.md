@@ -52,13 +52,14 @@
 > **첨부**: character_sheet.png + 1장 표지
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 해질녘의 청계천 산책로. 루아가 걷다 멈춰 난간에 살짝 기대어
-> 아래 냇물을 내려다본다. 이어폰을 끼고 어깨에 각진 토트백.
-> 수면에 루아의 물그림자가 일렁이며 비친다. 긴 저녁 그림자.
+> 해질녘 노들섬. 루아가 걷다 멈춰 강가 난간에 살짝 기대어
+> 한강을 내려다본다. 이어폰을 끼고 어깨에 각진 토트백.
+> 강은 화면 하단 절반, 하늘은 넓게. 강 건너로 아주 가는 선의
+> 도시 스카이라인이 멀리 희미하게 보인다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "퇴근길, 이어폰 속 피아노에서 물소리가 들렸다."
+> 상단 내레이션 "퇴근길에 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸, 물소리를 냈다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 배경은 난간과 물만 미니멀하게, 여백 많음.
+> 오프화이트 배경, 해칭 음영, 배경은 강과 하늘만 미니멀하게, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
 > 정사각형 1:1 비율.
 > ```
@@ -67,14 +68,15 @@
 > **첨부**: character_sheet.png + 1장 표지
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Cheonggyecheon stream walkway at dusk. Lua has stopped mid-walk,
-> leaning lightly on the railing, looking down at the stream below.
-> She wears earphones and carries her boxy tote bag. Her wavering
-> reflection shows on the water surface. Long evening shadow.
+> Scene: Nodeul Island, Han River, at dusk. Lua has stopped mid-walk,
+> leaning lightly on the riverside railing, looking down at the river.
+> She wears earphones and carries her boxy tote bag. The river fills the
+> bottom half of the frame, the sky wide above; a faint, thin-lined city
+> skyline sits far across the water.
 > Render Korean text in neat handwriting: narration at top
-> "퇴근길, 이어폰 속 피아노에서 물소리가 들렸다."
+> "퇴근길에 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸, 물소리를 냈다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, minimal background (railing and water only),
+> off-white paper, hatching, minimal background (river and sky only),
 > generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
 > Square 1:1 aspect ratio.
@@ -82,7 +84,7 @@
 
 ---
 
-## 3장 — 컷2 (발견)
+## 3장 — 컷2 (발견 · 자문자답)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 2장
@@ -94,7 +96,8 @@
 > 작은 물방울들 → 끝에서 위로 솟는 가는 물줄기 하나.
 > 사람 초상이나 라벨 없이, 선의 변화만으로 표현.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "순례의 해에는 물이 자꾸 나온다. 그런데 다 다른 물이다."
+> 상단 내레이션 "이 사람의 곡엔 물이 자꾸 나온다. 호수. 샘. 분수. 다 다른 물이다.",
+> 하단 작게 "왜 다 다른 물이었을까. 아니, 애초에 같은 물이란 게 있기는 한가."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -112,7 +115,8 @@
 > one thin jet of water rising upward at the end.
 > No portraits, no labels; express it only through the changing line.
 > Render Korean text in neat handwriting: narration at top
-> "순례의 해에는 물이 자꾸 나온다. 그런데 다 다른 물이다."
+> "이 사람의 곡엔 물이 자꾸 나온다. 호수. 샘. 분수. 다 다른 물이다.",
+> small text at bottom "왜 다 다른 물이었을까. 아니, 애초에 같은 물이란 게 있기는 한가."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -121,20 +125,22 @@
 
 ---
 
-## 4장 — 컷3 (사색)
+## 4장 — 컷3 (목격)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 3장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 난간 앞에 멈춰 턱에 손을 대고 수면을 가만히 내려다보는 루아(허리 위).
-> 아래 수면에 루아의 물그림자가 비치는데, 그 주위로 두 가지 잔상이
-> 희미하게 겹쳐 있다: 잘게 반짝이는 물결과, 흐리게 가라앉은 물결.
+> 문득 고개를 들어 강을 바라보는 루아(허리 위, 강과 마주 보는 구도).
+> 화면 속 강 수면의 결이 왼쪽에서 오른쪽으로 계속 달라진다:
+> 왼쪽은 가로로 긴 해칭선의 잔잔한 수평 물결, 가운데는 바람이 지나가는
+> 자국처럼 비스듬한 짧은 해칭, 오른쪽은 짧고 촘촘한 해칭으로 빛에
+> 잘게 반짝이는 표현. 한 화면 안에서 물의 결이 세 단계로 자연스럽게 변한다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "생각해보면 이 냇물도 어떤 날은 반짝였고, 어떤 날은 흐렸다.",
-> 루아 옆 작은 생각 구름 "물이 변했을까, 내가 변했을까."
+> 상단 내레이션 "문득 고개를 들었다. 강은 그새 다른 강이 되어 있었다.
+> 바람이 지나간 자리마다, 물이 다시 태어나고 있었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 수면은 해칭으로, 미니멀, 여백 많음.
+> 오프화이트 배경, 수면은 해칭 방향 변화로 표현, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
 > 정사각형 1:1 비율.
 > ```
@@ -143,32 +149,37 @@
 > **첨부**: character_sheet.png + 3장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Lua from the waist up, stopped at the railing, hand on her chin,
-> quietly gazing down at the water. Her reflection wavers on the surface,
-> and around it two faint afterimages overlap: finely sparkling ripples,
-> and dim, subdued ripples.
-> Render Korean text in neat handwriting:
-> narration at top "생각해보면 이 냇물도 어떤 날은 반짝였고, 어떤 날은 흐렸다.",
-> a small thought cloud beside her "물이 변했을까, 내가 변했을까."
+> Scene: Lua from the waist up, having just looked up, facing the river.
+> The river's surface texture keeps changing from left to right within a
+> single frame: the left side shows calm horizontal ripples in long
+> hatching strokes, the middle shows short diagonal hatching like a trace
+> of wind passing, the right side shows short, dense hatching that
+> sparkles with light. The water's texture shifts naturally in three
+> stages across the frame.
+> Render Korean text in neat handwriting: narration at top
+> "문득 고개를 들었다. 강은 그새 다른 강이 되어 있었다.
+> 바람이 지나간 자리마다, 물이 다시 태어나고 있었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, water in hatching, minimal, generous negative space.
+> off-white paper, water rendered through shifting hatching direction,
+> minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
 > Square 1:1 aspect ratio.
 > ```
 
 ---
 
-## 5장 — 컷4 (깨달음 · 마음의 정리)
+## 5장 — 컷4 (깨달음)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 4장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 눈을 감고 옅은 미소를 띤 루아의 상반신. 배경은 거의 비우고,
-> 하단에 잔상이 걷힌 아주 잔잔한 수평 물결 두세 줄만 남긴다.
+> 강을 바라보는 루아의 옆모습(허리 위), 옅은 미소. 수면은 여전히
+> 결이 살아 움직이는 채로(3장과 같은 방식의 해칭 변화).
+> 배경은 강과 하늘만, 여백 크게.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "물이 변한 게 아니었다. 바라보는 마음이 변한 것이었다.",
-> 하단 작게 "그 사람도 나처럼, 마음이 바뀔 때마다 물가에 왔었나 보다."
+> 상단 내레이션 "아, 이 사람은 이걸 오래도록 바라본 사람이었구나.",
+> 하단 작게 "물은, 한 번도 같은 적이 없었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -179,12 +190,13 @@
 > **첨부**: character_sheet.png + 4장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Lua's upper body, eyes closed, faint soft smile. Background almost
-> empty; only two or three very calm horizontal ripple lines remain at the
-> bottom, the afterimages now cleared.
-> Render Korean text in neat handwriting:
-> narration at top "물이 변한 게 아니었다. 바라보는 마음이 변한 것이었다.",
-> small text at bottom "그 사람도 나처럼, 마음이 바뀔 때마다 물가에 왔었나 보다."
+> Scene: side view of Lua from the waist up, gazing at the river, a faint
+> soft smile. The water surface still shows its shifting texture (same
+> hatching variation as the previous panel). Background is only river and
+> sky, large negative space.
+> Render Korean text in neat handwriting: narration at top
+> "아, 이 사람은 이걸 오래도록 바라본 사람이었구나.",
+> small text at bottom "물은, 한 번도 같은 적이 없었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, large negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -199,11 +211,11 @@
 > **첨부**: character_sheet.png + 5장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 멀리서 본 저녁의 청계천. 난간에 기대 물을 내려다보는 루아의 작은 뒷모습.
-> 수면 위 하늘에 별 하나. 물결 선은 아주 잔잔하게 최소한으로.
+> 멀리서 본 노들섬. 난간에 기대 강을 보는 루아의 작은 뒷모습.
+> 해가 완전히 저물어가는 하늘, 별 하나. 물결 선은 아주 잔잔하게 최소한으로.
 > 루아와 난간은 화면 하단 1/3에 작게, 나머지는 넓은 여백.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 여백에 "오늘의 내 물은, 어떤 소리를 낼까."
+> 상단 여백에 "강은 저물고 있었다. 나는 조금 더, 그 자리에 있었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 여백이 화면의 60% 이상.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -214,13 +226,12 @@
 > **첨부**: character_sheet.png + 5장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Cheonggyecheon stream at evening, seen from afar. Lua's small
-> figure from behind, leaning on the railing, looking down at the water.
-> A single star in the sky above the water. Minimal, very calm ripple
-> lines. Lua and the railing stay small in the bottom third; the rest is
-> open negative space.
+> Scene: Nodeul Island seen from afar at dusk. Lua's small figure from
+> behind, leaning on the railing, gazing at the river. The sky is nearly
+> dark, one star visible. Minimal, very calm ripple lines. Lua and the
+> railing stay small in the bottom third; the rest is open negative space.
 > Render Korean text in neat handwriting in the upper space:
-> "오늘의 내 물은, 어떤 소리를 낼까."
+> "강은 저물고 있었다. 나는 조금 더, 그 자리에 있었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, negative space over 60% of the frame.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -234,4 +245,5 @@
 - [x] 2장부터 직전 컷 첨부 지시 포함
 - [x] 매 컷 스타일 고정 문구 + 금지 문구 포함
 - [x] 화면 텍스트 원문이 따옴표로 정확히 명시됨
-- [x] 사색 우선 — 작곡가 초상·정보 라벨 프롬프트 제거, 선율=물의 변형과 잔상만으로 표현
+- [x] 사색 우선 — 작곡가 초상·정보 라벨 없음, 선율=물의 변형과 수면의 결 변화로만 표현
+- [x] 청계천 잔재 없음 — 전면 노들섬/한강 배경
