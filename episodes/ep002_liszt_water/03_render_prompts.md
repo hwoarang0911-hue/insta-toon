@@ -96,8 +96,8 @@
 > 작은 물방울들 → 끝에서 위로 솟는 가는 물줄기 하나.
 > 사람 초상이나 라벨 없이, 선의 변화만으로 표현.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "이 사람 곡에는 물이 자주 나온다. 호수, 샘, 분수.",
-> 하단 작게 "근데 왜 다 다르게 들리지. 같은 물인데."
+> 상단 내레이션 "이 사람 곡에는 물이 참 자주 나온다. 호수도, 샘도, 분수도.",
+> 하단 작게 "근데 다 다르게 들리네. 같은 물인데 왜 그렇지."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -115,8 +115,8 @@
 > one thin jet of water rising upward at the end.
 > No portraits, no labels; express it only through the changing line.
 > Render Korean text in neat handwriting: narration at top
-> "이 사람 곡에는 물이 자주 나온다. 호수, 샘, 분수.",
-> small text at bottom "근데 왜 다 다르게 들리지. 같은 물인데."
+> "이 사람 곡에는 물이 참 자주 나온다. 호수도, 샘도, 분수도.",
+> small text at bottom "근데 다 다르게 들리네. 같은 물인데 왜 그렇지."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -137,8 +137,8 @@
 > 자국처럼 비스듬한 짧은 해칭, 오른쪽은 짧고 촘촘한 해칭으로 빛에
 > 잘게 반짝이는 표현. 한 화면 안에서 물의 결이 세 단계로 자연스럽게 변한다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "고개를 들었더니 강이 조금 전과 달라져 있었다.
-> 바람이 지나간 자리마다 물빛이 바뀌었다."
+> 상단 내레이션 "고개를 들었더니 강이 아까랑 달라져 있었다.
+> 바람이 지나가는 자리마다 물빛이 자꾸 바뀌었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 수면은 해칭 방향 변화로 표현, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -157,8 +157,8 @@
 > sparkles with light. The water's texture shifts naturally in three
 > stages across the frame.
 > Render Korean text in neat handwriting: narration at top
-> "고개를 들었더니 강이 조금 전과 달라져 있었다.
-> 바람이 지나간 자리마다 물빛이 바뀌었다."
+> "고개를 들었더니 강이 아까랑 달라져 있었다.
+> 바람이 지나가는 자리마다 물빛이 자꾸 바뀌었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, water rendered through shifting hatching direction,
 > minimal, generous negative space.
