@@ -136,6 +136,8 @@
 > 왼쪽은 가로로 긴 해칭선의 잔잔한 수평 물결, 가운데는 바람이 지나가는
 > 자국처럼 비스듬한 짧은 해칭, 오른쪽은 짧고 촘촘한 해칭으로 빛에
 > 잘게 반짝이는 표현. 한 화면 안에서 물의 결이 세 단계로 자연스럽게 변한다.
+> 3장에서 그린 선율의 변화(물결→물방울→물줄기)와 같은 리듬으로 그려서
+> 두 컷이 겹쳐 보이게 한다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "그러다 고개를 들었다.
 > 바람이 불 때마다 강 물빛이 조금씩 달라지고 있었다."
@@ -155,7 +157,9 @@
 > hatching strokes, the middle shows short diagonal hatching like a trace
 > of wind passing, the right side shows short, dense hatching that
 > sparkles with light. The water's texture shifts naturally in three
-> stages across the frame.
+> stages across the frame. Match this rhythm to the melodic line drawn in
+> the previous-but-one panel (ripples → droplets → jet) so the two panels
+> visually echo each other.
 > Render Korean text in neat handwriting: narration at top
 > "그러다 고개를 들었다.
 > 바람이 불 때마다 강 물빛이 조금씩 달라지고 있었다."
@@ -179,7 +183,7 @@
 > 배경은 강과 하늘만, 여백 크게.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "아, 물은 원래 계속 다른 거였구나.",
-> 하단 작게 "그 사람도 이걸 오래 봤겠지."
+> 하단 작게 "그 사람도 이런 걸 오래 봤겠지."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -196,7 +200,7 @@
 > sky, large negative space.
 > Render Korean text in neat handwriting: narration at top
 > "아, 물은 원래 계속 다른 거였구나.",
-> small text at bottom "그 사람도 이걸 오래 봤겠지."
+> small text at bottom "그 사람도 이런 걸 오래 봤겠지."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, large negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
