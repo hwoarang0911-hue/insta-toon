@@ -57,7 +57,7 @@
 > 강은 화면 하단 절반, 하늘은 넓게. 강 건너로 아주 가는 선의
 > 도시 스카이라인이 멀리 희미하게 보인다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "퇴근길에 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸, 물소리를 냈다."
+> 상단 내레이션 "퇴근길에 그냥 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸 물소리를 내서."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 배경은 강과 하늘만 미니멀하게, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -74,7 +74,7 @@
 > bottom half of the frame, the sky wide above; a faint, thin-lined city
 > skyline sits far across the water.
 > Render Korean text in neat handwriting: narration at top
-> "퇴근길에 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸, 물소리를 냈다."
+> "퇴근길에 그냥 노들섬에서 내렸다. 이어폰 속 피아노가 자꾸 물소리를 내서."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal background (river and sky only),
 > generous negative space.
@@ -96,8 +96,8 @@
 > 작은 물방울들 → 끝에서 위로 솟는 가는 물줄기 하나.
 > 사람 초상이나 라벨 없이, 선의 변화만으로 표현.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "이 사람의 곡엔 물이 자꾸 나온다. 호수. 샘. 분수. 다 다른 물이다.",
-> 하단 작게 "왜 다 다른 물이었을까. 아니, 애초에 같은 물이란 게 있기는 한가."
+> 상단 내레이션 "이 사람 곡에는 물이 자주 나온다. 호수, 샘, 분수.",
+> 하단 작게 "근데 왜 다 다르게 들리지. 같은 물인데."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -115,8 +115,8 @@
 > one thin jet of water rising upward at the end.
 > No portraits, no labels; express it only through the changing line.
 > Render Korean text in neat handwriting: narration at top
-> "이 사람의 곡엔 물이 자꾸 나온다. 호수. 샘. 분수. 다 다른 물이다.",
-> small text at bottom "왜 다 다른 물이었을까. 아니, 애초에 같은 물이란 게 있기는 한가."
+> "이 사람 곡에는 물이 자주 나온다. 호수, 샘, 분수.",
+> small text at bottom "근데 왜 다 다르게 들리지. 같은 물인데."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -137,8 +137,8 @@
 > 자국처럼 비스듬한 짧은 해칭, 오른쪽은 짧고 촘촘한 해칭으로 빛에
 > 잘게 반짝이는 표현. 한 화면 안에서 물의 결이 세 단계로 자연스럽게 변한다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "문득 고개를 들었다. 강은 그새 다른 강이 되어 있었다.
-> 바람이 지나간 자리마다, 물이 다시 태어나고 있었다."
+> 상단 내레이션 "고개를 들었더니 강이 조금 전과 달라져 있었다.
+> 바람이 지나간 자리마다 물빛이 바뀌었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 수면은 해칭 방향 변화로 표현, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -157,8 +157,8 @@
 > sparkles with light. The water's texture shifts naturally in three
 > stages across the frame.
 > Render Korean text in neat handwriting: narration at top
-> "문득 고개를 들었다. 강은 그새 다른 강이 되어 있었다.
-> 바람이 지나간 자리마다, 물이 다시 태어나고 있었다."
+> "고개를 들었더니 강이 조금 전과 달라져 있었다.
+> 바람이 지나간 자리마다 물빛이 바뀌었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, water rendered through shifting hatching direction,
 > minimal, generous negative space.
@@ -178,8 +178,8 @@
 > 결이 살아 움직이는 채로(3장과 같은 방식의 해칭 변화).
 > 배경은 강과 하늘만, 여백 크게.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "아, 이 사람은 이걸 오래도록 바라본 사람이었구나.",
-> 하단 작게 "물은, 한 번도 같은 적이 없었다."
+> 상단 내레이션 "아, 이 사람도 이런 걸 오래 봤겠구나.",
+> 하단 작게 "물은 한 번도 같은 적이 없었으니까."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -195,8 +195,8 @@
 > hatching variation as the previous panel). Background is only river and
 > sky, large negative space.
 > Render Korean text in neat handwriting: narration at top
-> "아, 이 사람은 이걸 오래도록 바라본 사람이었구나.",
-> small text at bottom "물은, 한 번도 같은 적이 없었다."
+> "아, 이 사람도 이런 걸 오래 봤겠구나.",
+> small text at bottom "물은 한 번도 같은 적이 없었으니까."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, large negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -215,7 +215,7 @@
 > 해가 완전히 저물어가는 하늘, 별 하나. 물결 선은 아주 잔잔하게 최소한으로.
 > 루아와 난간은 화면 하단 1/3에 작게, 나머지는 넓은 여백.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 여백에 "강은 저물고 있었다. 나는 조금 더, 그 자리에 있었다."
+> 상단 여백에 "해가 지는데도 조금 더 서 있고 싶었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 여백이 화면의 60% 이상.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -231,7 +231,7 @@
 > dark, one star visible. Minimal, very calm ripple lines. Lua and the
 > railing stay small in the bottom third; the rest is open negative space.
 > Render Korean text in neat handwriting in the upper space:
-> "강은 저물고 있었다. 나는 조금 더, 그 자리에 있었다."
+> "해가 지는데도 조금 더 서 있고 싶었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, negative space over 60% of the frame.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
