@@ -56,7 +56,7 @@
 > 아래 냇물을 내려다본다. 이어폰을 끼고 어깨에 각진 토트백.
 > 수면에 루아의 물그림자가 일렁이며 비친다. 긴 저녁 그림자.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "퇴근길 청계천, 이어폰에서 리스트의 '샘가에서'가 흘렀다."
+> 상단 내레이션 "퇴근길, 이어폰 속 피아노에서 물소리가 들렸다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 배경은 난간과 물만 미니멀하게, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -72,7 +72,7 @@
 > She wears earphones and carries her boxy tote bag. Her wavering
 > reflection shows on the water surface. Long evening shadow.
 > Render Korean text in neat handwriting: narration at top
-> "퇴근길 청계천, 이어폰에서 리스트의 '샘가에서'가 흘렀다."
+> "퇴근길, 이어폰 속 피아노에서 물소리가 들렸다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal background (railing and water only),
 > generous negative space.
@@ -82,26 +82,22 @@
 
 ---
 
-## 3장 — 컷2 (발견/갈등)
+## 3장 — 컷2 (발견)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 2장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 화면을 세로 점선으로 좌우 이등분.
-> 왼쪽: 잔잔한 호수와 먼 산, 수면에 비친 구름. 그 아래 긴 머리의
-> 젊은 남성(1830년대 복장) 옆모습 작은 스케치.
-> 오른쪽: 사이프러스 나무들 사이로 높이 물을 뿜는 분수, 흩어지는 물방울과
-> 빛. 그 아래 성직자 옷을 입은 노년 남성의 작은 스케치.
-> 하단 중앙에 위를 올려다보는 루아.
+> 이어폰을 끼고 걷는 루아의 옆모습(허리 위). 이어폰에서 흘러나온
+> 선율 한 줄이 왼쪽에서 오른쪽으로 길게 이어지며 모양이 변한다:
+> 처음에는 낮게 가라앉는 수평의 물결 → 가운데에서 잘게 반짝이는
+> 작은 물방울들 → 끝에서 위로 솟는 가는 물줄기 하나.
+> 사람 초상이나 라벨 없이, 선의 변화만으로 표현.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 좌측 "청년의 물 / 발렌슈타트 호수 / 고요하게, 낮게",
-> 우측 "노년의 물 / 에스테 별장의 분수 / 빛을 향해, 위로",
-> 하단 내레이션 "순례의 해에는 물이 자꾸 나온다. 그런데 같은 물이 아니다."
+> 상단 내레이션 "순례의 해에는 물이 자꾸 나온다. 그런데 다 다른 물이다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 여백 많음.
-> 왼쪽 반은 수평선 위주로 잔잔하게, 오른쪽 반은 수직선 위주로 솟구치게.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택.
+> 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
 > 정사각형 1:1 비율.
 > ```
 
@@ -109,22 +105,17 @@
 > **첨부**: character_sheet.png + 2장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: frame split in half by a vertical dashed line.
-> Left half: a calm lake with distant mountains, clouds reflected on the
-> still surface; below it, a small side-profile sketch of a young
-> long-haired man in 1830s dress (young Liszt).
-> Right half: a tall fountain shooting water upward between cypress trees,
-> droplets and light scattering (Villa d'Este); below it, a small sketch
-> of an elderly man in clergy robes (old Liszt).
-> At bottom center, Lua looks up at both.
-> Render Korean text in neat handwriting:
-> left "청년의 물 / 발렌슈타트 호수 / 고요하게, 낮게",
-> right "노년의 물 / 에스테 별장의 분수 / 빛을 향해, 위로",
-> bottom narration "순례의 해에는 물이 자꾸 나온다. 그런데 같은 물이 아니다."
-> Style: fountain pen sketch, wobbly ink lines, black and white, off-white
-> paper, hatching. Left half uses calm horizontal strokes; right half uses
-> rising vertical strokes.
-> Avoid: 3D, realistic skin, anime, glossy coloring.
+> Scene: side view of Lua from the waist up, walking with earphones on.
+> A single melodic line flows out of her earphone and stretches from left
+> to right across the frame, transforming as it goes: first low, calm
+> horizontal ripples — then small sparkling droplets in the middle — then
+> one thin jet of water rising upward at the end.
+> No portraits, no labels; express it only through the changing line.
+> Render Korean text in neat handwriting: narration at top
+> "순례의 해에는 물이 자꾸 나온다. 그런데 다 다른 물이다."
+> Style: fountain pen sketch, wobbly ink lines, black and white,
+> off-white paper, hatching, minimal, generous negative space.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
 > Square 1:1 aspect ratio.
 > ```
 
@@ -136,13 +127,14 @@
 > **첨부**: character_sheet.png + 3장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 눈을 감고 평온한 표정의 루아 상반신, 배경 없음.
-> 머리 위에 생각 구름 두 개. 왼쪽 구름 안: 잔잔한 수평 물결 세 줄.
-> 오른쪽 구름 안: 위로 솟는 분수 물줄기 하나.
+> 난간 앞에 멈춰 턱에 손을 대고 수면을 가만히 내려다보는 루아(허리 위).
+> 아래 수면에 루아의 물그림자가 비치는데, 그 주위로 두 가지 잔상이
+> 희미하게 겹쳐 있다: 잘게 반짝이는 물결과, 흐리게 가라앉은 물결.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 두 구름 사이 "같은 사람이 그린 물인데, 왜 이렇게 다르게 들릴까."
+> 상단 내레이션 "생각해보면 이 냇물도 어떤 날은 반짝였고, 어떤 날은 흐렸다.",
+> 루아 옆 작은 생각 구름 "물이 변했을까, 내가 변했을까."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 미니멀, 여백 최대한 많이.
+> 오프화이트 배경, 수면은 해칭으로, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
 > 정사각형 1:1 비율.
 > ```
@@ -151,33 +143,34 @@
 > **첨부**: character_sheet.png + 3장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Lua's upper body, eyes closed, serene expression, no background.
-> Two thought clouds above her head. Left cloud: three calm horizontal
-> ripple lines. Right cloud: a single fountain jet rising upward.
-> Render Korean text in neat handwriting between the clouds:
-> "같은 사람이 그린 물인데, 왜 이렇게 다르게 들릴까."
+> Scene: Lua from the waist up, stopped at the railing, hand on her chin,
+> quietly gazing down at the water. Her reflection wavers on the surface,
+> and around it two faint afterimages overlap: finely sparkling ripples,
+> and dim, subdued ripples.
+> Render Korean text in neat handwriting:
+> narration at top "생각해보면 이 냇물도 어떤 날은 반짝였고, 어떤 날은 흐렸다.",
+> a small thought cloud beside her "물이 변했을까, 내가 변했을까."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, minimal, maximum negative space.
+> off-white paper, water in hatching, minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
 > Square 1:1 aspect ratio.
 > ```
 
 ---
 
-## 5장 — 컷4 (깨달음)
+## 5장 — 컷4 (깨달음 · 마음의 정리)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 4장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 청계천 난간에 기댄 루아의 옆모습(허리 위), 옅은 미소.
-> 아래 수면에 루아의 물그림자가 비치고, 그 물그림자 주위로
-> 호수의 물결·샘의 반짝임·분수의 물줄기가 잔상처럼 희미하게 겹쳐 어른거린다.
+> 눈을 감고 옅은 미소를 띤 루아의 상반신. 배경은 거의 비우고,
+> 하단에 잔상이 걷힌 아주 잔잔한 수평 물결 두세 줄만 남긴다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 내레이션 "물이 변한 게 아니었다. 물을 바라보는 마음이 변한 것이었다.",
-> 하단 작게 "리스트는 평생, 그때의 마음으로 물가에 돌아왔다."
+> 상단 내레이션 "물이 변한 게 아니었다. 바라보는 마음이 변한 것이었다.",
+> 하단 작게 "그 사람도 나처럼, 마음이 바뀔 때마다 물가에 왔었나 보다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 수면 반사는 해칭으로, 미니멀, 여백 많음.
+> 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
 > 정사각형 1:1 비율.
 > ```
@@ -186,16 +179,14 @@
 > **첨부**: character_sheet.png + 4장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: side view of Lua from the waist up, leaning on the stream railing,
-> soft smile. Her reflection wavers on the water below; around the
-> reflection, faint afterimages of a calm lake ripple, a sparkling spring,
-> and a rising fountain jet overlap like ghosts on the water.
+> Scene: Lua's upper body, eyes closed, faint soft smile. Background almost
+> empty; only two or three very calm horizontal ripple lines remain at the
+> bottom, the afterimages now cleared.
 > Render Korean text in neat handwriting:
-> narration at top "물이 변한 게 아니었다. 물을 바라보는 마음이 변한 것이었다.",
-> small text at bottom "리스트는 평생, 그때의 마음으로 물가에 돌아왔다."
+> narration at top "물이 변한 게 아니었다. 바라보는 마음이 변한 것이었다.",
+> small text at bottom "그 사람도 나처럼, 마음이 바뀔 때마다 물가에 왔었나 보다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, water reflections in hatching, minimal, generous
-> negative space.
+> off-white paper, hatching, minimal, large negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
 > Square 1:1 aspect ratio.
 > ```
@@ -243,3 +234,4 @@
 - [x] 2장부터 직전 컷 첨부 지시 포함
 - [x] 매 컷 스타일 고정 문구 + 금지 문구 포함
 - [x] 화면 텍스트 원문이 따옴표로 정확히 명시됨
+- [x] 사색 우선 — 작곡가 초상·정보 라벨 프롬프트 제거, 선율=물의 변형과 잔상만으로 표현
