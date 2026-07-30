@@ -12,8 +12,8 @@
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(쉼이)를 그대로 유지해서 그려줘.
-> 20대 여성 쉼이가 턱에 손을 괴고 정면을 보며 고민하는 상반신 클로즈업.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘.
+> 20대 여성 루아가 턱에 손을 괴고 정면을 보며 고민하는 상반신 클로즈업.
 > 머리 위 양쪽에 19세기 작곡가 두 명(대머리에 나비넥타이 노신사 / 둥근 안경에
 > 헝클어진 머리의 나비넥타이 남성)의 작은 초상 스케치.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
@@ -27,10 +27,10 @@
 ### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png
 > ```
-> Keep the exact same character (Swimi) from the attached character sheet:
+> Keep the exact same character (Lua) from the attached character sheet:
 > a Korean woman in her mid-20s, shoulder-length wavy black hair,
 > tiny dot eyes, calm minimal expression, plain long-sleeve top.
-> Scene: close-up of Swimi resting her chin on her hand, pondering,
+> Scene: close-up of Lua resting her chin on her hand, pondering,
 > facing forward. Above her head, two small portrait sketches of 19th-century
 > composers — a bald elderly gentleman with a bow tie (Bruckner) and a man
 > with round glasses and tousled hair with a bow tie (Mahler).
@@ -53,7 +53,7 @@
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
 > 화면 좌우에 두 작곡가의 초상(브루크너: 대머리 노신사, 말러: 둥근 안경)이
-> 나란히 있고 그 사이에 "VS". 하단 중앙에 책상에 앉아 올려다보는 쉼이,
+> 나란히 있고 그 사이에 "VS". 하단 중앙에 책상에 앉아 올려다보는 루아,
 > 무표정으로 생각 중.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "브루크너와 말러, 교향곡의 결이 다르다.",
@@ -70,7 +70,7 @@
 > Keep the exact same character and art style as the attached character sheet
 > and previous panel.
 > Scene: two composer portraits side by side at top (bald elderly Bruckner /
-> round-glasses Mahler) with "VS" between them. At bottom center, Swimi sits
+> round-glasses Mahler) with "VS" between them. At bottom center, Lua sits
 > at a desk looking up at them, neutral thinking expression.
 > Render Korean text in neat handwriting: narration at top
 > "브루크너와 말러, 교향곡의 결이 다르다.", label "브루크너" above left portrait,
@@ -92,7 +92,7 @@
 > 화면을 세로 점선으로 좌우 이등분.
 > 왼쪽: 첨탑 두 개와 장미창이 있는 거대한 성당 스케치, 주위에 음표 몇 개.
 > 오른쪽: 산과 침엽수 숲, 팔을 벌린 작은 사람, 흩어지는 음표들, 해.
-> 하단 중앙에 위를 올려다보는 쉼이의 뒷모습에 가까운 옆모습.
+> 하단 중앙에 위를 올려다보는 루아의 뒷모습에 가까운 옆모습.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 좌측 상단 "브루크너 / 거대한 성당 / 느리게, 깊게, 하나의 신을 향한 기도",
 > 좌측 하단 "웅장, 장엄, 정적인 힘",
@@ -112,7 +112,7 @@
 > Left half: a grand cathedral sketch with two spires and a rose window,
 > a few music notes around it. Right half: mountains and a pine forest,
 > a small figure with open arms, scattered music notes, a sun.
-> At bottom center, Swimi seen from behind/side, looking up.
+> At bottom center, Lua seen from behind/side, looking up.
 > Render Korean text in neat handwriting:
 > left top "브루크너 / 거대한 성당 / 느리게, 깊게, 하나의 신을 향한 기도",
 > left bottom "웅장, 장엄, 정적인 힘",
@@ -132,7 +132,7 @@
 > **첨부**: character_sheet.png + 3장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 눈을 감고 평온한 표정의 쉼이 상반신, 배경 없음.
+> 눈을 감고 평온한 표정의 루아 상반신, 배경 없음.
 > 머리 위에 생각 구름 두 개.
 > 왼쪽 구름 안: 별들이 흩어진 영원의 문(아치) 스케치.
 > 오른쪽 구름 안: 건물들, 사람들, 자동차가 있는 도시 풍경 스케치.
@@ -150,7 +150,7 @@
 > **첨부**: character_sheet.png + 3장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Swimi's upper body, eyes closed, serene expression, no background.
+> Scene: Lua's upper body, eyes closed, serene expression, no background.
 > Two thought clouds above her head.
 > Left cloud: an archway of eternity with scattered stars.
 > Right cloud: a city scene with buildings, small people, and cars.
@@ -172,7 +172,7 @@
 > **첨부**: character_sheet.png + 4장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 공원 벤치에 앉아 옅게 미소 짓는 쉼이, 옆에 각진 토트백.
+> 공원 벤치에 앉아 옅게 미소 짓는 루아, 옆에 각진 토트백.
 > 양옆에 생각 구름 두 개. 왼쪽 구름 안: 쉼표 두 개만 있는 조용한 악보 선.
 > 오른쪽 구름 안: 사방으로 흩어지는 많은 음표들.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
@@ -191,7 +191,7 @@
 > **첨부**: character_sheet.png + 4장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: Swimi sits on a park bench with a soft smile, her boxy tote bag
+> Scene: Lua sits on a park bench with a soft smile, her boxy tote bag
 > beside her. Two thought clouds, one on each side.
 > Left cloud: a quiet staff line with just two musical rest symbols.
 > Right cloud: many music notes scattering in all directions.
@@ -215,7 +215,7 @@
 > **첨부**: character_sheet.png + 5장
 > ```
 > 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
-> 멀리서 본 공원 벤치. 헤드폰을 쓴 쉼이의 작은 뒷모습이 벤치에 앉아 있다.
+> 멀리서 본 공원 벤치. 헤드폰을 쓴 루아의 작은 뒷모습이 벤치에 앉아 있다.
 > 옆에 토트백. 낙엽 한 장이 공중에 떨어지고 있다.
 > 벤치는 화면 하단 1/3에 작게, 나머지는 넓은 여백.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
@@ -230,7 +230,7 @@
 > **첨부**: character_sheet.png + 5장
 > ```
 > Keep the exact same character and art style as the attached references.
-> Scene: a park bench seen from afar. Swimi's small figure from behind,
+> Scene: a park bench seen from afar. Lua's small figure from behind,
 > wearing headphones, sitting on the bench with her tote bag.
 > A single leaf falling in the air. The bench occupies only the bottom third;
 > the rest is open negative space.

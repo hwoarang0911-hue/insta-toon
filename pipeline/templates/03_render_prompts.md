@@ -21,7 +21,7 @@
 > **첨부**: character_sheet.png (+ 직전 컷)
 >
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(쉼이)를 그대로 유지해서 그려줘.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘.
 > [장면 묘사 — 콘티의 장면·카메라·표정·구도를 자연어로]
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > "[화면 텍스트 원문]"
@@ -35,7 +35,7 @@
 > **첨부**: character_sheet.png (+ 직전 컷)
 >
 > ```
-> Keep the exact same character (Swimi) from the attached character sheet:
+> Keep the exact same character (Lua) from the attached character sheet:
 > a Korean woman in her mid-20s, shoulder-length wavy black hair,
 > tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants.
 > Scene: [장면 묘사 영어 번역 — 카메라·표정·구도 포함]
