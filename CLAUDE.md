@@ -50,6 +50,7 @@
 - `assets/character_sheet.png` — 루아 캐릭터 시트. 모든 렌더링 프롬프트가 참조하는 원본
 - `assets/profile.png` — 계정 프로필 이미지
 - `assets/samples/` — 톤의 기준이 되는 샘플 (ep001 4컷, 표지 훅 컷)
+- `episodes/epNNN_*/images/` — 그 화에서 생성한 6장을 보관하는 자리 (`01_cover.png` ~ `06_outro.png`)
 
 ## 절대 규칙
 

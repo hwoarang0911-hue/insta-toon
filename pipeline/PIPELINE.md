@@ -101,3 +101,6 @@ Stage 4  캡션·해시태그 → episodes/epNNN_slug/04_caption.md
 - 에피소드 제목과 핵심 메시지
 - 6장 구성 한 줄 요약
 - 다음 액션 (이미지 생성 도구에 프롬프트 투입)
+
+4개 파일과 함께 `episodes/epNNN_slug/images/` 폴더를 만들고 README(파일명 규칙)를 넣어둔다.
+생성된 이미지는 `01_cover.png` ~ `06_outro.png`로 그 폴더에 보관한다 (선택 사항 — 인스타 업로드에는 불필요).
