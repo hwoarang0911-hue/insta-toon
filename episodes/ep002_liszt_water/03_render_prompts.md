@@ -58,7 +58,7 @@
 > 도시 스카이라인이 멀리 희미하게 보인다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "퇴근길에 그냥 노들섬에서 내렸다.
-> 듣고 있던 피아노가 자꾸 물소리처럼 들렸거든."
+> 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 배경은 강과 하늘만 미니멀하게, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -76,7 +76,7 @@
 > skyline sits far across the water.
 > Render Korean text in neat handwriting: narration at top
 > "퇴근길에 그냥 노들섬에서 내렸다.
-> 듣고 있던 피아노가 자꾸 물소리처럼 들렸거든."
+> 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal background (river and sky only),
 > generous negative space.
@@ -99,8 +99,8 @@
 > 사람 초상이나 라벨 없이, 선의 변화만으로 표현.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "리스트가 쓴 곡에는 물에 대한 이야기가 유난히 많다.
-> 호수도 있고, 샘도 있고, 분수도 있고.",
-> 하단 작게 "근데 이상하게 하나도 안 비슷해. 왜 다 다르게 들리지?"
+> 호수도 있고, 샘도 있고, 분수도 있다.",
+> 하단 작게 "그런데 이상하게 하나도 안 비슷하다. 왜 다 다르게 들리지?"
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -119,8 +119,8 @@
 > No portraits, no labels; express it only through the changing line.
 > Render Korean text in neat handwriting: narration at top
 > "리스트가 쓴 곡에는 물에 대한 이야기가 유난히 많다.
-> 호수도 있고, 샘도 있고, 분수도 있고.",
-> small text at bottom "근데 이상하게 하나도 안 비슷해. 왜 다 다르게 들리지?"
+> 호수도 있고, 샘도 있고, 분수도 있다.",
+> small text at bottom "그런데 이상하게 하나도 안 비슷하다. 왜 다 다르게 들리지?"
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, generous negative space.
 > Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
@@ -144,7 +144,7 @@
 > 두 컷이 겹쳐 보이게 한다.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "그러다 문득 고개를 들었는데, 강이 아까랑 좀 달라 보였다.
-> 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있더라고."
+> 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 수면은 해칭 방향 변화로 표현, 미니멀, 여백 많음.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
@@ -166,7 +166,7 @@
 > visually echo each other.
 > Render Korean text in neat handwriting: narration at top
 > "그러다 문득 고개를 들었는데, 강이 아까랑 좀 달라 보였다.
-> 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있더라고."
+> 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있었다."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, water rendered through shifting hatching direction,
 > minimal, generous negative space.
@@ -187,7 +187,7 @@
 > 배경은 강과 하늘만, 여백 크게.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "아, 물은 원래 계속 다른 거구나.
-> 같은 강이어도 볼 때마다 다르니까.",
+> 같은 강이어도 볼 때마다 다르다.",
 > 하단 작게 "그 사람도 이렇게 오래 앉아서 물을 봤겠지."
 > 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
 > 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
@@ -205,7 +205,7 @@
 > sky, large negative space.
 > Render Korean text in neat handwriting: narration at top
 > "아, 물은 원래 계속 다른 거구나.
-> 같은 강이어도 볼 때마다 다르니까.",
+> 같은 강이어도 볼 때마다 다르다.",
 > small text at bottom "그 사람도 이렇게 오래 앉아서 물을 봤겠지."
 > Style: fountain pen sketch, wobbly ink lines, black and white,
 > off-white paper, hatching, minimal, large negative space.
