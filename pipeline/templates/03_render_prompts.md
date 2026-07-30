@@ -23,8 +23,15 @@
 ## (A) 통합 프롬프트 — 한국어판 · Gemini / 나노바나나용
 
 ```
-인스타툰 6장을 순서대로 만들어줘. 한 번에 한 장씩, 1장부터 6장까지.
-내가 "다음 장"이라고 하면 다음 컷으로 넘어가.
+인스타툰 6장짜리 시리즈를 만들 거야. 시작 전에 중요한 규칙 두 가지.
+
+❗ 규칙 1 — 6장을 한 이미지에 모아 그리지 마.
+   각 장은 완전히 독립된 별개의 이미지다. 한 이미지 = 한 장면 하나.
+   격자 배치, 콜라주, 4컷 만화식 분할, 여러 장면을 한 화면에 넣기 전부 금지.
+
+❗ 규칙 2 — 지금은 아래 [1장]만 만들어.
+   2~6장은 내가 "다음 장"이라고 말할 때까지 만들지 마.
+   아래에 전체 목록을 미리 주는 건 그림체와 이야기 흐름을 알려주기 위해서다.
 
 [모든 장에 공통 적용]
 · 캐릭터: 20대 한국 여성. 어깨에 닿는 검은 웨이브 단발, 작은 점 같은 눈,
@@ -38,10 +45,12 @@
 · 각 장에 지정된 한글 텍스트를 이미지 안에 손글씨 느낌으로 정확히 넣을 것.
 · 2장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
 
+=== 지금 만들 것 ===
 [1장 · 표지]
 (장면 묘사)
 넣을 글자 — 상단 제목: "(표지 문구)"
 
+=== 아래는 이후 순서. 지금 만들지 말 것 ===
 [2장] ~ [6장]  ← 콘티의 「이미지에 들어가는 글자」 표와 문구가 일치해야 한다
 ```
 
@@ -50,8 +59,15 @@
 ## (B) 통합 프롬프트 — 영어판 · ChatGPT용
 
 ```
-Create a 6-panel Instagram comic, one panel at a time, in order from 1 to 6.
-Wait for me to say "next" before moving to the following panel.
+I am making a 6-part Instagram comic series. Two critical rules first.
+
+IMPORTANT 1 — Do NOT combine the panels into one image.
+   Each panel is a completely separate, standalone image. One image = one scene.
+   No grids, no collages, no 4-panel comic layouts, no multiple scenes in one frame.
+
+IMPORTANT 2 — Generate ONLY [Panel 1] right now.
+   Do not generate panels 2-6 until I say "next".
+   The full list below is given in advance only so you know the art style and story flow.
 
 [Apply to every panel]
 · Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair,
@@ -67,6 +83,7 @@ Wait for me to say "next" before moving to the following panel.
   handwriting style, exactly as written.
 · From panel 2 onward, carry over the character and line style of the previous image.
 
+=== GENERATE PANEL 1 ONLY. THE REST COME LATER ===
 [Panel 1 ~ 6]  ← 한글 문구는 원문 그대로 (번역하지 않는다)
 ```
 

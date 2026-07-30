@@ -8,6 +8,10 @@
 3. 1장이 나오면 **그 이미지를 첨부하고 "다음 장"**이라고 한다 → 6장까지 반복
    *(직전 컷 첨부가 그림체 일관성의 핵심이라 이 단계만은 손으로 해야 한다)*
 
+> **첫 장이 나오면 확인할 것**: 한 이미지에 장면이 하나만 있어야 한다.
+> 6컷이 격자로 한 장에 다 들어갔다면 이렇게 다시 말한다 —
+> `"한 이미지에 한 장면만. 격자로 합치지 말고 1장만 다시 만들어줘."`
+
 ---
 
 ## (A) 통합 프롬프트 — 한국어판 · Gemini / 나노바나나용
@@ -15,8 +19,15 @@
 > 한글 텍스트를 이미지에 직접 넣는 데 강하다. 이쪽을 우선 권장.
 
 ```
-인스타툰 6장을 순서대로 만들어줘. 한 번에 한 장씩, 1장부터 6장까지.
-내가 "다음 장"이라고 하면 다음 컷으로 넘어가.
+인스타툰 6장짜리 시리즈를 만들 거야. 시작 전에 중요한 규칙 두 가지.
+
+❗ 규칙 1 — 6장을 한 이미지에 모아 그리지 마.
+   각 장은 완전히 독립된 별개의 이미지다. 한 이미지 = 한 장면 하나.
+   격자 배치, 콜라주, 4컷 만화식 분할, 여러 장면을 한 화면에 넣기 전부 금지.
+
+❗ 규칙 2 — 지금은 아래 [1장]만 만들어.
+   2~6장은 내가 "다음 장"이라고 말할 때까지 만들지 마.
+   아래에 전체 목록을 미리 주는 건 그림체와 이야기 흐름을 알려주기 위해서다.
 
 [모든 장에 공통 적용]
 · 캐릭터: 20대 한국 여성. 어깨에 닿는 검은 웨이브 단발, 작은 점 같은 눈,
@@ -30,10 +41,13 @@
 · 각 장에 지정된 한글 텍스트를 이미지 안에 손글씨 느낌으로 정확히 넣을 것.
 · 2장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
 
+=== 지금 만들 것 ===
 [1장 · 표지]
 이어폰을 낀 여성의 상반신 클로즈업. 고개를 살짝 기울여 아래를 내려다본다.
 화면 하단 1/4에 잔잔한 물결 선 몇 줄, 그 사이에 작은 음표 두세 개.
 넣을 글자 — 상단 제목: "물을 그린 피아니스트"
+
+=== 아래는 이후 순서. 지금 만들지 말 것 ===
 
 [2장]
 해질녘 한강. 걷다 멈춘 여성이 강가 난간에 살짝 기대어 물을 내려다본다.
@@ -85,8 +99,15 @@
 > 한글이 깨지면 텍스트 없이 생성한 뒤 아래 「후보정용 글자표」로 얹는다.
 
 ```
-Create a 6-panel Instagram comic, one panel at a time, in order from 1 to 6.
-Wait for me to say "next" before moving to the following panel.
+I am making a 6-part Instagram comic series. Two critical rules first.
+
+IMPORTANT 1 — Do NOT combine the panels into one image.
+   Each panel is a completely separate, standalone image. One image = one scene.
+   No grids, no collages, no 4-panel comic layouts, no multiple scenes in one frame.
+
+IMPORTANT 2 — Generate ONLY [Panel 1] right now.
+   Do not generate panels 2-6 until I say "next".
+   The full list below is given in advance only so you know the art style and story flow.
 
 [Apply to every panel]
 · Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair,
@@ -102,11 +123,14 @@ Wait for me to say "next" before moving to the following panel.
   handwriting style, exactly as written.
 · From panel 2 onward, carry over the character and line style of the previous image.
 
+=== GENERATE THIS ONE NOW ===
 [Panel 1 · Cover]
 Close-up of the woman's upper body wearing earphones, head slightly tilted,
 gazing downward. Gentle water ripple lines fill the bottom quarter of the frame,
 with two or three small music notes among them.
 Text — title at top: "물을 그린 피아니스트"
+
+=== BELOW: LATER PANELS. DO NOT GENERATE YET ===
 
 [Panel 2]
 Han River at dusk. She has stopped mid-walk, leaning lightly on the riverside
