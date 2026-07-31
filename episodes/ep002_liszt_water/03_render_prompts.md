@@ -1,16 +1,61 @@
 # [ep002] 물을 그린 피아니스트 — 이미지 렌더링 지시서
 
-# 🚀 한 번에 전달하기
+# 0. 표지(1장) — 실사 배경 콜라주 (예외 워크플로)
+
+> **표지만 다른 5장과 만드는 방식이 다르다.** 배경은 실제 사진, 캐릭터는 손그림 컷아웃을 합성한다.
+> 컷1~4·여운(2~6장)은 아래 「🚀 한 번에 전달하기」로 넘어간다.
+> (`brand/03_DRAWING_STYLE.md` 표지 예외, `brand/06_IMAGE_RULE.md` 표지 합성 절차 참고)
+
+## 실행 순서 (4단계)
+1. **해질녘 노들섬·한강 사진**을 준비한다 (직접 촬영 또는 출처가 분명한 사진)
+2. 아래 캐릭터 컷아웃 프롬프트로 **배경 없는 캐릭터만** 생성 (character_sheet.png 첨부)
+3. 사진 편집 툴(캔바, 미리캔버스, 포토샵 등)에서 사진 위에 캐릭터 컷아웃을 배치, 흰 테두리를 살려 스티커처럼 보이게 한다
+4. 표지 문구를 손글씨 느낌 폰트로 얹는다: "물을 그린 피아니스트"
+
+### 캐릭터 컷아웃 프롬프트 — 한국어판 (Gemini/나노바나나)
+```
+첨부한 캐릭터 시트의 루아를 그대로 유지해서 그려줘. 캐릭터 시트가 외형의 기준이다.
+상반신. 이어폰을 낀 채 고개를 살짝 기울여 아래를 내려다보는 표정(생각 중).
+캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+배경은 순백색(#ffffff)으로, 캐릭터만 오려내기 쉽게 그려줘. 배경 요소는 아무것도 넣지 마.
+스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 해칭 음영.
+소지품(토트백 등)에 로고나 브랜드명을 넣지 마.
+금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 배경 요소 일체, 로고·워드마크.
+4:5 비율(1080×1350).
+```
+
+### 캐릭터 컷아웃 프롬프트 — 영어판 (ChatGPT)
+```
+Keep the exact same character (Lua) from the attached character sheet — it is the source of
+truth for her appearance:
+a Korean woman in her mid-20s, shoulder-length wavy black hair,
+tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants.
+Pose/expression: upper body, wearing earphones, head tilted slightly, gazing downward
+(thoughtful expression).
+Keep the character large enough to read clearly on a small (mobile) screen — do not draw her too small.
+Background: pure flat white (#ffffff), nothing else — the character must be easy to cut out cleanly.
+Style: hand-drawn fountain pen sketch, thick and irregular wobbly ink lines,
+black and white, hatching for shade.
+No logos or brand names on any accessory (tote bag, etc).
+Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, any background elements, logos/wordmarks.
+4:5 aspect ratio (1080x1350).
+```
+
+---
+
+# 🚀 한 번에 전달하기 (컷1~4 + 여운 · 2~6장)
+
+> 표지(1장)는 여기 포함되지 않는다 — 위 0번 워크플로로 별도 제작한다.
 
 ## 실행 순서 (3단계)
 1. 이미지 생성 AI 대화창에 **`assets/character_sheet.png`를 첨부**한다
 2. 아래 통합 프롬프트를 **통째로 복사해서 붙여넣는다** (도구에 맞는 언어판 선택)
-3. 1장이 나오면 **그 이미지를 첨부하고 "다음 장"**이라고 한다 → 6장까지 반복
+3. 컷1(2장)이 나오면 **그 이미지를 첨부하고 "다음 장"**이라고 한다 → 여운(6장)까지 반복
    *(직전 컷 첨부가 그림체 일관성의 핵심이라 이 단계만은 손으로 해야 한다)*
 
 > **첫 장이 나오면 확인할 것**: 한 이미지에 장면이 하나만 있어야 한다.
-> 6컷이 격자로 한 장에 다 들어갔다면 이렇게 다시 말한다 —
-> `"한 이미지에 한 장면만. 격자로 합치지 말고 1장만 다시 만들어줘."`
+> 여러 컷이 격자로 한 장에 다 들어갔다면 이렇게 다시 말한다 —
+> `"한 이미지에 한 장면만. 격자로 합치지 말고 컷1만 다시 만들어줘."`
 
 ---
 
@@ -19,43 +64,41 @@
 > 한글 텍스트를 이미지에 직접 넣는 데 강하다. 이쪽을 우선 권장.
 
 ```
-인스타툰 6장짜리 시리즈를 만들 거야. 시작 전에 중요한 규칙 두 가지.
+인스타툰의 컷1~4와 마지막 여운 장, 5장짜리를 만들 거야 (표지는 별도로 만든다). 시작 전에 중요한 규칙 두 가지.
 
-❗ 규칙 1 — 6장을 한 이미지에 모아 그리지 마.
+❗ 규칙 1 — 5장을 한 이미지에 모아 그리지 마.
    각 장은 완전히 독립된 별개의 이미지다. 한 이미지 = 한 장면 하나.
    격자 배치, 콜라주, 4컷 만화식 분할, 여러 장면을 한 화면에 넣기 전부 금지.
 
-❗ 규칙 2 — 지금은 아래 [1장]만 만들어.
-   2~6장은 내가 "다음 장"이라고 말할 때까지 만들지 마.
+❗ 규칙 2 — 지금은 아래 [2장 · 컷1]만 만들어.
+   3~6장은 내가 "다음 장"이라고 말할 때까지 만들지 마.
    아래에 전체 목록을 미리 주는 건 그림체와 이야기 흐름을 알려주기 위해서다.
 
 [모든 장에 공통 적용]
 · 캐릭터: 20대 한국 여성. 어깨에 닿는 검은 웨이브 단발, 작은 점 같은 눈,
-  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백.
-  첨부한 캐릭터 시트의 인물을 그대로 유지할 것.
-· 그림체: 손으로 그린 만년필 펜 스케치. 선이 불규칙하고 굵기가 일정하지 않다.
-  흑백, 오프화이트 종이 배경, 음영은 해칭(빗금)으로만.
-  배경은 미니멀하게, 여백을 많이 남긴다.
-· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경.
-· 비율: 정사각형 1:1
+  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백(로고·브랜드명 없음).
+  첨부한 캐릭터 시트의 인물을 그대로 유지할 것 — 세부 외형은 그 시트가 기준이다.
+· 캐릭터 크기: 화면에서 작아지지 않게. 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로.
+· 그림체: 손으로 그린 만년필 펜 스케치. 선은 두껍고 불규칙하며 굵기가 일정하지 않다.
+  흑백, 배경색은 흰색(#ffffff), 음영은 해칭(빗금)으로만.
+  배경 묘사는 짧게, 최소한으로만 (표지와 달리 실사 배경 없음 — 전부 손그림 배경).
+· 텍스트: 크게 — 작은 화면에서도 한 번에 읽히는 크기로.
+· 프레임: 컷 가장자리에 손으로 그린 테두리선(외곽선)을 두를 것.
+· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명 노출.
+· 비율: 4:5 (1080×1350)
 · 각 장에 지정된 한글 텍스트를 이미지 안에 손글씨 느낌으로 정확히 넣을 것.
-· 2장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
+· 3장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
 
 === 지금 만들 것 ===
-[1장 · 표지]
-이어폰을 낀 여성의 상반신 클로즈업. 고개를 살짝 기울여 아래를 내려다본다.
-화면 하단 1/4에 잔잔한 물결 선 몇 줄, 그 사이에 작은 음표 두세 개.
-넣을 글자 — 상단 제목: "물을 그린 피아니스트"
-
-=== 아래는 이후 순서. 지금 만들지 말 것 ===
-
-[2장]
+[2장 · 컷1]
 해질녘 한강. 걷다 멈춘 여성이 강가 난간에 살짝 기대어 물을 내려다본다.
 이어폰, 어깨에 토트백. 강은 화면 하단 절반, 하늘은 넓게.
 강 건너 도시 스카이라인은 아주 가는 선으로 멀리 희미하게.
 넣을 글자 — 상단 내레이션:
 "퇴근길에 그냥 노들섬에서 내렸다.
 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
+
+=== 아래는 이후 순서. 지금 만들지 말 것 ===
 
 [3장]
 이어폰을 끼고 걷는 여성의 옆모습(허리 위).
@@ -99,39 +142,38 @@
 > 한글이 깨지면 텍스트 없이 생성한 뒤 아래 「후보정용 글자표」로 얹는다.
 
 ```
-I am making a 6-part Instagram comic series. Two critical rules first.
+I am making an Instagram comic series — panels 2 through 6 (cut1-4 plus a closing panel;
+the cover panel is made separately). Two critical rules first.
 
 IMPORTANT 1 — Do NOT combine the panels into one image.
    Each panel is a completely separate, standalone image. One image = one scene.
    No grids, no collages, no 4-panel comic layouts, no multiple scenes in one frame.
 
-IMPORTANT 2 — Generate ONLY [Panel 1] right now.
-   Do not generate panels 2-6 until I say "next".
+IMPORTANT 2 — Generate ONLY [Panel 2] right now.
+   Do not generate panels 3-6 until I say "next".
    The full list below is given in advance only so you know the art style and story flow.
 
 [Apply to every panel]
 · Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair,
   tiny dot eyes, calm minimal expression, plain long-sleeve top, wide-leg pants,
-  a boxy tote bag. Keep the exact same character as the attached character sheet.
-· Style: hand-drawn fountain pen sketch. Irregular, wobbly ink lines of uneven
-  weight. Black and white on off-white paper. Shading only through hatching.
-  Minimal background, generous negative space.
+  a boxy tote bag (no logo or brand name). Keep the exact same character as the
+  attached character sheet — it is the source of truth for her appearance.
+· Character size: keep her large enough to read clearly on a small (mobile) screen —
+  do not draw her too small.
+· Style: hand-drawn fountain pen sketch. Thick, irregular, wobbly ink lines of uneven
+  weight. Black and white on a pure white (#ffffff) background. Shading only through
+  hatching. Background description kept minimal and brief (unlike the cover, no photo
+  background — every background here is hand-drawn).
+· Text: large — readable at a glance on a small screen.
+· Frame: draw a hand-drawn border/outline around the edge of each panel.
 · Avoid: 3D, realistic skin, Japanese anime style, glossy webtoon coloring,
-  gradients, complex backgrounds.
-· Aspect ratio: square 1:1
+  gradients, complex backgrounds, logos or brand names.
+· Aspect ratio: 4:5 (1080x1350)
 · Render the Korean text specified for each panel inside the image, in neat
   handwriting style, exactly as written.
-· From panel 2 onward, carry over the character and line style of the previous image.
+· From panel 3 onward, carry over the character and line style of the previous image.
 
-=== GENERATE THIS ONE NOW ===
-[Panel 1 · Cover]
-Close-up of the woman's upper body wearing earphones, head slightly tilted,
-gazing downward. Gentle water ripple lines fill the bottom quarter of the frame,
-with two or three small music notes among them.
-Text — title at top: "물을 그린 피아니스트"
-
-=== BELOW: LATER PANELS. DO NOT GENERATE YET ===
-
+=== GENERATE PANEL 2 ONLY. THE REST COME LATER ===
 [Panel 2]
 Han River at dusk. She has stopped mid-walk, leaning lightly on the riverside
 railing, looking down at the water. Earphones, tote bag on her shoulder.
@@ -140,6 +182,8 @@ skyline sits far across the water.
 Text — narration at top:
 "퇴근길에 그냥 노들섬에서 내렸다.
 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
+
+=== BELOW: LATER PANELS. DO NOT GENERATE YET ===
 
 [Panel 3]
 Side view of her from the waist up, walking with earphones on.
@@ -220,56 +264,24 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 
 ## 공통 준비물
 - 참조 1: `assets/character_sheet.png` — 모든 컷에 첨부
-- 참조 2: 직전 생성 컷 — 2장부터 첨부
+- 참조 2: 직전 생성 컷 — **3장부터** 첨부 (2장 컷1은 표지가 콜라주라 캐릭터 시트만 첨부)
 - 스타일 참조(선택): `assets/samples/sample_4cut_bruckner_mahler.png`
 
 ---
 
-## 1장 — 표지 (훅)
+## 1장 — 표지
 
-### 🍌 나노바나나 (Gemini)
-> **첨부**: character_sheet.png
-> ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘.
-> 20대 여성 루아의 상반신 클로즈업. 이어폰을 끼고 고개를 살짝 기울여
-> 아래를 내려다보는 담백한 표정. 화면 하단 1/4에 잔잔한 물결 선 몇 줄,
-> 물결 사이에 작은 음표 두세 개가 떠 있다.
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
-> 상단 제목 "물을 그린 피아니스트"
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 미니멀한 배경, 여백 많음.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
-> ```
-
-### 🤖 GPT (이미지 생성)
-> **첨부**: character_sheet.png
-> ```
-> Keep the exact same character (Lua) from the attached character sheet:
-> a Korean woman in her mid-20s, shoulder-length wavy black hair,
-> tiny dot eyes, calm minimal expression, plain long-sleeve top.
-> Scene: close-up of Lua's upper body wearing earphones, head slightly
-> tilted, gazing downward. A few gentle horizontal water ripple lines fill
-> the bottom quarter of the frame, with two or three small music notes
-> floating among the ripples.
-> Render this Korean text in neat handwriting style:
-> title "물을 그린 피아니스트" at top.
-> Style: hand-drawn fountain pen sketch, irregular wobbly ink lines,
-> black and white, off-white paper background, hatching for shade,
-> minimal background, generous negative space.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background.
-> Square 1:1 aspect ratio.
-> ```
-> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
+> **표지는 여기서 만들지 않는다.** 실사 배경 콜라주 워크플로(문서 맨 위 **0번**)를 쓴다.
+> 해질녘 노들섬·한강 사진 위에 캐릭터 컷아웃을 얹고, 문구 "물을 그린 피아니스트"를 손글씨 폰트로 삽입한다.
 
 ---
 
 ## 2장 — 컷1 (상황)
 
 ### 🍌 나노바나나 (Gemini)
-> **첨부**: character_sheet.png + 1장 표지
+> **첨부**: character_sheet.png
 > ```
-> 첨부한 캐릭터 시트와 직전 컷의 캐릭터·그림체를 그대로 유지해서 그려줘.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
 > 해질녘 노들섬. 루아가 걷다 멈춰 강가 난간에 살짝 기대어
 > 한강을 내려다본다. 이어폰을 끼고 어깨에 각진 토트백.
 > 강은 화면 하단 절반, 하늘은 넓게. 강 건너로 아주 가는 선의
@@ -277,16 +289,18 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "퇴근길에 그냥 노들섬에서 내렸다.
 > 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 배경은 강과 하늘만 미니멀하게, 여백 많음.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경은 강과 하늘만 짧게.
+> 캐릭터와 글씨는 작은 화면에서도 잘 보이게 크게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
-> **첨부**: character_sheet.png + 1장 표지
+> **첨부**: character_sheet.png
 > ```
-> Keep the exact same character and art style as the attached references.
+> Keep the exact same character (Lua) from the attached character sheet — it is
+> the source of truth for her appearance.
 > Scene: Nodeul Island, Han River, at dusk. Lua has stopped mid-walk,
 > leaning lightly on the riverside railing, looking down at the river.
 > She wears earphones and carries her boxy tote bag. The river fills the
@@ -295,11 +309,13 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > Render Korean text in neat handwriting: narration at top
 > "퇴근길에 그냥 노들섬에서 내렸다.
 > 듣고 있던 피아노가 자꾸 물소리처럼 들렸다."
-> Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, minimal background (river and sky only),
+> Style: fountain pen sketch, thick wobbly ink lines, black and white,
+> pure white (#ffffff) background, hatching, minimal background (river and sky only),
 > generous negative space.
-> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
-> Square 1:1 aspect ratio.
+> Keep her large enough and the text big enough to read on a small (mobile) screen.
+> Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
@@ -319,10 +335,11 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > 상단 내레이션 "리스트가 쓴 곡에는 물에 대한 이야기가 유난히 많다.
 > 호수도 있고, 샘도 있고, 분수도 있다.",
 > 하단 작게 "그런데 이상하게 하나도 안 비슷하다. 왜 다 다르게 들리지?"
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 미니멀, 여백 많음.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게.
+> 캐릭터와 글씨는 작은 화면에서도 잘 보이게 크게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
@@ -339,10 +356,12 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > "리스트가 쓴 곡에는 물에 대한 이야기가 유난히 많다.
 > 호수도 있고, 샘도 있고, 분수도 있다.",
 > small text at bottom "그런데 이상하게 하나도 안 비슷하다. 왜 다 다르게 들리지?"
-> Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, minimal, generous negative space.
-> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
-> Square 1:1 aspect ratio.
+> Style: fountain pen sketch, thick wobbly ink lines, black and white,
+> pure white (#ffffff) background, hatching, minimal, generous negative space.
+> Keep her large enough and the text big enough to read on a small (mobile) screen.
+> Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
@@ -363,10 +382,11 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 내레이션 "그러다 문득 고개를 들었는데, 강이 아까랑 좀 달라 보였다.
 > 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있었다."
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 수면은 해칭 방향 변화로 표현, 미니멀, 여백 많음.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 수면은 해칭 방향 변화로 표현, 배경 묘사는 짧게.
+> 캐릭터와 글씨는 작은 화면에서도 잘 보이게 크게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
@@ -385,11 +405,13 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > Render Korean text in neat handwriting: narration at top
 > "그러다 문득 고개를 들었는데, 강이 아까랑 좀 달라 보였다.
 > 바람이 한 번씩 불 때마다 물빛이 계속 바뀌고 있었다."
-> Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, water rendered through shifting hatching direction,
+> Style: fountain pen sketch, thick wobbly ink lines, black and white,
+> pure white (#ffffff) background, water rendered through shifting hatching direction,
 > minimal, generous negative space.
-> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
-> Square 1:1 aspect ratio.
+> Keep her large enough and the text big enough to read on a small (mobile) screen.
+> Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
@@ -407,10 +429,11 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > 상단 내레이션 "아, 물은 원래 계속 다른 거구나.
 > 같은 강이어도 볼 때마다 다르다.",
 > 하단 작게 "그 사람도 이렇게 오래 앉아서 물을 봤겠지."
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 미니멀, 여백 크게.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게, 여백 크게.
+> 캐릭터와 글씨는 작은 화면에서도 잘 보이게 크게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
@@ -425,10 +448,12 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > "아, 물은 원래 계속 다른 거구나.
 > 같은 강이어도 볼 때마다 다르다.",
 > small text at bottom "그 사람도 이렇게 오래 앉아서 물을 봤겠지."
-> Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, minimal, large negative space.
-> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
-> Square 1:1 aspect ratio.
+> Style: fountain pen sketch, thick wobbly ink lines, black and white,
+> pure white (#ffffff) background, hatching, minimal, large negative space.
+> Keep her large enough and the text big enough to read on a small (mobile) screen.
+> Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
@@ -444,10 +469,12 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > 루아와 난간은 화면 하단 1/3에 작게, 나머지는 넓은 여백.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
 > 상단 여백에 "해가 다 질 때까지 그냥 좀 더 서 있었다."
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 여백이 화면의 60% 이상.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 여백이 화면의 60% 이상.
+> 인물은 작게 배치하되 작은 화면에서도 뒷모습 형태는 뚜렷하게. 글씨는 크게.
+> 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
@@ -460,18 +487,24 @@ Text — in the upper space: "해가 다 질 때까지 그냥 좀 더 서 있었
 > railing stay small in the bottom third; the rest is open negative space.
 > Render Korean text in neat handwriting in the upper space:
 > "해가 다 질 때까지 그냥 좀 더 서 있었다."
-> Style: fountain pen sketch, wobbly ink lines, black and white,
-> off-white paper, hatching, negative space over 60% of the frame.
-> Avoid: 3D, realistic skin, anime, glossy coloring, complex background.
-> Square 1:1 aspect ratio.
+> Style: fountain pen sketch, thick wobbly ink lines, black and white,
+> pure white (#ffffff) background, hatching, negative space over 60% of the frame.
+> Keep her large enough and the text big enough to read on a small (mobile) screen.
+> Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime, glossy coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
 
 ## Stage 3 체크리스트
-- [x] 6컷 모두 character_sheet.png 첨부 지시 포함
-- [x] 2장부터 직전 컷 첨부 지시 포함
+- [x] 표지(1장)는 0번 실사 배경 콜라주 워크플로로 별도 작성됐는가 (나머지 5장과 다른 방식)
+- [x] 컷1~4·여운(2~6장) 모두 character_sheet.png 첨부 지시 포함
+- [x] 3장부터 직전 컷 첨부 지시 포함
 - [x] 매 컷 스타일 고정 문구 + 금지 문구 포함
 - [x] 화면 텍스트 원문이 따옴표로 정확히 명시됨
+- [x] 배경색 흰색(#ffffff), 비율 4:5(1080×1350) 지시가 모든 컷에 있는가
+- [x] 펜선 두껍게, 컷 외곽선, 캐릭터·텍스트 크게 지시가 있는가
+- [x] 로고·브랜드명 노출 금지 지시가 있는가
 - [x] 사색 우선 — 작곡가 초상·정보 라벨 없음, 선율=물의 변형과 수면의 결 변화로만 표현
 - [x] 청계천 잔재 없음 — 전면 노들섬/한강 배경
