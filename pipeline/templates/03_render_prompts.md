@@ -22,25 +22,30 @@
 
 ### 캐릭터 컷아웃 프롬프트 — 한국어판 (Gemini/나노바나나)
 ```
-첨부한 캐릭터 시트의 루아를 그대로 유지해서 그려줘.
+첨부한 캐릭터 시트의 루아를 그대로 유지해서 그려줘. 캐릭터 시트가 외형의 기준이다.
 [포즈·표정 묘사 — 콘티의 표지 장면 참고]
-배경은 순백색으로, 캐릭터만 오려내기 쉽게 그려줘. 배경 요소는 아무것도 넣지 마.
-스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백, 해칭 음영.
-금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 배경 요소 일체.
-정사각형 1:1 비율.
+캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+배경은 순백색(#ffffff)으로, 캐릭터만 오려내기 쉽게 그려줘. 배경 요소는 아무것도 넣지 마.
+스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 해칭 음영.
+소지품(토트백 등)에 로고나 브랜드명을 넣지 마.
+금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 배경 요소 일체, 로고·워드마크.
+4:5 비율(1080×1350).
 ```
 
 ### 캐릭터 컷아웃 프롬프트 — 영어판 (ChatGPT)
 ```
-Keep the exact same character (Lua) from the attached character sheet:
+Keep the exact same character (Lua) from the attached character sheet — it is the source of
+truth for her appearance:
 a Korean woman in her mid-20s, shoulder-length wavy black hair,
 tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants.
 Pose/expression: [scene description translated from the storyboard's cover panel]
-Background: pure flat white, nothing else — the character must be easy to cut out cleanly.
-Style: hand-drawn fountain pen sketch, irregular wobbly ink lines,
+Keep the character large enough to read clearly on a small (mobile) screen — do not draw her too small.
+Background: pure flat white (#ffffff), nothing else — the character must be easy to cut out cleanly.
+Style: hand-drawn fountain pen sketch, thick and irregular wobbly ink lines,
 black and white, hatching for shade.
-Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, any background elements.
-Square 1:1 aspect ratio.
+No logos or brand names on any accessory (tote bag, etc).
+Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, any background elements, logos/wordmarks.
+4:5 aspect ratio (1080x1350).
 ```
 
 ---
@@ -73,13 +78,16 @@ Square 1:1 aspect ratio.
 
 [모든 장에 공통 적용]
 · 캐릭터: 20대 한국 여성. 어깨에 닿는 검은 웨이브 단발, 작은 점 같은 눈,
-  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백.
-  첨부한 캐릭터 시트의 인물을 그대로 유지할 것.
-· 그림체: 손으로 그린 만년필 펜 스케치. 선이 불규칙하고 굵기가 일정하지 않다.
-  흑백, 오프화이트 종이 배경, 음영은 해칭(빗금)으로만.
-  배경은 미니멀하게, 여백을 많이 남긴다 (표지와 달리 실사 배경 없음 — 전부 손그림 배경).
-· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경.
-· 비율: 정사각형 1:1
+  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백(로고·브랜드명 없음).
+  첨부한 캐릭터 시트의 인물을 그대로 유지할 것 — 세부 외형은 그 시트가 기준이다.
+· 캐릭터 크기: 화면에서 작아지지 않게. 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로.
+· 그림체: 손으로 그린 만년필 펜 스케치. 선은 두껍고 불규칙하며 굵기가 일정하지 않다.
+  흑백, 배경색은 흰색(#ffffff), 음영은 해칭(빗금)으로만.
+  배경 묘사는 짧게, 최소한으로만 (표지와 달리 실사 배경 없음 — 전부 손그림 배경).
+· 텍스트: 크게 — 작은 화면에서도 한 번에 읽히는 크기로.
+· 프레임: 컷 가장자리에 손으로 그린 테두리선(외곽선)을 두를 것.
+· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명 노출.
+· 비율: 4:5 (1080×1350)
 · 각 장에 지정된 한글 텍스트를 이미지 안에 손글씨 느낌으로 정확히 넣을 것.
 · 3장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
 
@@ -111,14 +119,19 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 [Apply to every panel]
 · Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair,
   tiny dot eyes, calm minimal expression, plain long-sleeve top, wide-leg pants,
-  a boxy tote bag. Keep the exact same character as the attached character sheet.
-· Style: hand-drawn fountain pen sketch. Irregular, wobbly ink lines of uneven
-  weight. Black and white on off-white paper. Shading only through hatching.
-  Minimal background, generous negative space (unlike the cover, no photo background —
-  every background here is hand-drawn).
+  a boxy tote bag (no logo or brand name). Keep the exact same character as the
+  attached character sheet — it is the source of truth for her appearance.
+· Character size: keep her large enough to read clearly on a small (mobile) screen —
+  do not draw her too small.
+· Style: hand-drawn fountain pen sketch. Thick, irregular, wobbly ink lines of uneven
+  weight. Black and white on a pure white (#ffffff) background. Shading only through
+  hatching. Background description kept minimal and brief (unlike the cover, no photo
+  background — every background here is hand-drawn).
+· Text: large — readable at a glance on a small screen.
+· Frame: draw a hand-drawn border/outline around the edge of each panel.
 · Avoid: 3D, realistic skin, Japanese anime style, glossy webtoon coloring,
-  gradients, complex backgrounds.
-· Aspect ratio: square 1:1
+  gradients, complex backgrounds, logos or brand names.
+· Aspect ratio: 4:5 (1080x1350)
 · Render the Korean text specified for each panel inside the image, in neat
   handwriting style, exactly as written.
 · From panel 3 onward, carry over the character and line style of the previous image.
@@ -154,9 +167,9 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 - 스타일 흔들림 시: `assets/samples/sample_4cut_bruckner_mahler.png` 추가 첨부
 
 ## 스타일 고정 문구 (매 컷 프롬프트에 포함됨)
-- 한국어: "손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백, 오프화이트 배경, 해칭 음영, 미니멀한 배경, 여백 많음"
-- 영어: "hand-drawn fountain pen sketch, irregular wobbly ink lines, black and white, off-white paper background, hatching for shade, minimal background, generous negative space"
-- 네거티브(금지): "3D, realistic skin, anime style, glossy webtoon coloring, gradients, complex background" / "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경 금지"
+- 한국어: "손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게, 캐릭터는 화면에서 작지 않게, 텍스트는 크게, 컷 가장자리에 테두리선, 4:5 비율"
+- 영어: "hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white, pure white (#ffffff) background, hatching for shade, minimal background description, character kept large enough for mobile screens, large text, hand-drawn panel border, 4:5 aspect ratio"
+- 네거티브(금지): "3D, realistic skin, anime style, glossy webtoon coloring, gradients, complex background, logos or brand names" / "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명 노출 금지"
 
 ---
 
@@ -166,30 +179,35 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 > **첨부**: character_sheet.png (+ 직전 컷)
 >
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
 > [장면 묘사 — 콘티의 장면·카메라·표정·구도를 자연어로]
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 정확히 넣어줘:
+> 캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
 > "[화면 텍스트 원문]"
-> 스타일: 손으로 그린 만년필 펜 스케치, 불규칙한 선, 흑백,
-> 오프화이트 배경, 해칭 음영, 미니멀한 배경, 여백 많음.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경.
-> 정사각형 1:1 비율.
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 소지품(토트백 등)에 로고나 브랜드명을 넣지 마.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
+> 4:5 비율(1080×1350).
 > ```
 
 ### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png (+ 직전 컷)
 >
 > ```
-> Keep the exact same character (Lua) from the attached character sheet:
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance:
 > a Korean woman in her mid-20s, shoulder-length wavy black hair,
-> tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants.
+> tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants,
+> a boxy tote bag (no logo or brand name).
 > Scene: [장면 묘사 영어 번역 — 카메라·표정·구도 포함]
-> Render this Korean text in neat handwriting style: "[화면 텍스트 원문]"
-> Style: hand-drawn fountain pen sketch, irregular wobbly ink lines,
-> black and white, off-white paper background, hatching for shade,
-> minimal background, generous negative space.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background.
-> Square 1:1 aspect ratio.
+> Keep her large enough to read clearly on a small (mobile) screen — do not draw her too small.
+> Render this Korean text large, in neat handwriting style: "[화면 텍스트 원문]"
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
+> 4:5 aspect ratio (1080x1350).
 > ```
 > ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
@@ -201,3 +219,6 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 - [ ] 3장부터 직전 컷 첨부 지시 포함
 - [ ] 매 컷 스타일 고정 문구 + 금지 문구 포함
 - [ ] 화면 텍스트 원문이 따옴표로 정확히 명시됨
+- [ ] 배경색 흰색(#ffffff), 비율 4:5(1080×1350) 지시가 모든 컷에 있는가
+- [ ] 펜선 두껍게, 컷 외곽선, 캐릭터·텍스트 크게 지시가 있는가
+- [ ] 로고·브랜드명 노출 금지 지시가 있는가
