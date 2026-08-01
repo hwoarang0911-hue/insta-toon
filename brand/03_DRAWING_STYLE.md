@@ -26,7 +26,7 @@
 - 생각은 구름형 말풍선
 - 내레이션은 말풍선 없이 컷 상단 여백에
 
-> 구도 선택과 변화 규칙은 `brand/11_STORY_TYPES.md` 8장과 `brand/08_VISUAL_LANGUAGE.md`를 본다.
+> 구도 선택과 변화 규칙은 `brand/11_STORY_TYPES.md` 10장과 `brand/08_VISUAL_LANGUAGE.md`를 본다.
 > 이 문서는 **선·색·질감**만 다룬다.
 
 ## 표지 예외 — 실사 배경 콜라주

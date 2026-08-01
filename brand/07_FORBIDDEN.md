@@ -14,7 +14,7 @@
 - 감성적 소재라는 이유로 REFLECTION 자동 선택
 - 직전 두 화와 같은 주 유형
 
-## 마지막 컷 (`brand/11_STORY_TYPES.md` 7장)
+## 마지막 컷 (`brand/11_STORY_TYPES.md` 9장)
 - 교훈 · 메시지 요약 · 감정의 정답
 - 독자에게 던지는 철학적 질문
 - 의미 있어 보이기 위한 시적 문장
@@ -35,7 +35,7 @@
 - 유행어, 밈, 느낌표 남용
 - 훈계, 선동, 정치, 자극적 표현
 
-## 구도 (`brand/11_STORY_TYPES.md` 8장 · `brand/08_VISUAL_LANGUAGE.md`)
+## 구도 (`brand/11_STORY_TYPES.md` 10장 · `brand/08_VISUAL_LANGUAGE.md`)
 - **동일한 카메라 거리 3회 이상 연속**
 - 모든 컷을 캐릭터 정면 중경으로 구성
 - 와이드숏 없음 / 디테일숏 없음 / 얼굴 안 보이는 컷 없음
