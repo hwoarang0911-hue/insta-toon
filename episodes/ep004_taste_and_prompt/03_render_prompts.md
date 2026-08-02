@@ -92,10 +92,10 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 === 아래는 이후 순서. 지금 만들지 말 것 ===
 
 [3장 · 컷2]
-행동: 화면에 결과 이미지 여러 장이 떠 있다. 손은 마우스에서 떨어져 있고 그냥 보고만 있다.
+행동: 화면에 결과 이미지 여러 장이 떠 있다. 스크롤을 내리지만 아무것도 고르지 않는다.
 구도: 어깨너머 — 루아의 어깨 너머로 본 모니터 화면 / 카메라 거리 중경. 뒤통수와 어깨만 보인다.
 배경: 화면 속 결과물은 네모 몇 개로만 그린다. 실제 이미지나 서비스 UI를 그리지 마.
-이미지 안에 글자를 넣지 마. (무대사 컷)
+이미지 안에 다음 한글 텍스트를 넣어줘: "다 괜찮은데."
 
 [4장 · 컷3]
 행동: 의자를 옆으로 돌린다. 책상 아래에서 발이 천천히 흔들린다.
@@ -108,13 +108,13 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 행동: 책상 옆 엽서꽂이에서 엽서 한 장을 뽑아 든다. 손끝으로 가장자리를 만진다.
 구도: 손 디테일 — 엽서를 쥔 두 손 / 카메라 거리 디테일. 얼굴은 프레임 밖.
 배경: 엽서꽂이 가장자리와 책상 표면만. 엽서 그림은 단순한 선 몇 개로.
-이미지 안에 다음 한글 텍스트를 넣어줘: "아, 이건 좀 좋다."
+이미지 안에 다음 한글 텍스트를 넣어줘 — 상단: "아, 이건 좀 좋다." / 하단에 작게: "삼 년째 안 버렸네."
 
 [6장 · 여운]
 행동: 모니터 옆에 엽서가 붙어 있다. 화면의 입력창은 그대로 비어 있고 커서만 깜빡인다.
 구도: 위에서 내려다보는 구도 — 책상 위 전체 / 카메라 거리 중경. 인물은 없다.
 배경: 모니터, 붙인 엽서, 키보드, 빈 입력창. 여백을 화면의 60% 이상.
-이미지 안에 글자를 넣지 마. (무대사 컷)
+이미지 안에 다음 한글 텍스트를 상단 여백에 넣어줘: "입력창은 그냥 비워뒀다."
 ```
 
 ## (B) 통합 프롬프트 — 영어판 · ChatGPT용
@@ -163,13 +163,12 @@ Render this Korean text large, in neat handwriting style: "뭐 만들지."
 === BELOW: LATER PANELS. DO NOT GENERATE YET ===
 
 [Panel 3 · cut 2]
-Action: several generated images are now on screen. Her hand has left the mouse; she is just
-  looking at them.
+Action: several generated images are now on screen. She scrolls through them but picks none.
 Composition: over the shoulder — the monitor seen past her shoulder / camera distance MEDIUM.
   Only the back of her head and her shoulders are visible.
 Background: render the on-screen results as a few plain rectangles only. Do not draw real
   images or any service UI.
-Do not render any text in this image. (silent panel)
+Render this Korean text: "다 괜찮은데."
 
 [Panel 4 · cut 3]
 Action: she swivels the chair sideways. Under the desk, her foot swings slowly.
@@ -185,7 +184,7 @@ Composition: hand detail — both hands holding the postcard / camera distance D
   Her face is out of frame.
 Background: only the edge of the holder and the desk surface. Draw the postcard's picture as
   a few simple lines.
-Render this Korean text: "아, 이건 좀 좋다."
+Render this Korean text — top: "아, 이건 좀 좋다." / small, bottom: "삼 년째 안 버렸네."
 
 [Panel 6 · closing]
 Action: the postcard is now stuck beside the monitor. On screen, the input box is still empty
@@ -193,12 +192,12 @@ Action: the postcard is now stuck beside the monitor. On screen, the input box i
 Composition: looking down from above — the whole desktop / camera distance MEDIUM. No character.
 Background: monitor, the stuck postcard, keyboard, the empty input box. Negative space covers
   60%+ of the frame.
-Do not render any text in this image. (silent panel)
+Render this Korean text in the top margin: "입력창은 그냥 비워뒀다."
 ```
 
 ## (C) 후보정용 글자표
 한글이 깨지면 텍스트 없이 생성 후 `02_storyboard.md`의 「이미지에 들어가는 글자」 표 기준으로 손글씨 폰트 삽입.
-**컷2·컷3·여운은 원래 무대사다** — 글자를 넣지 않는다.
+**컷3만 무대사다** — 그 컷에는 글자를 넣지 않는다.
 
 ---
 ---
@@ -271,13 +270,13 @@ Do not render any text in this image. (silent panel)
 > **첨부**: character_sheet.png + 직전 컷(2장)
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 화면에 결과 이미지 여러 장이 떠 있다. 손은 마우스에서 떨어져 있고 그냥 보고만 있다.
+> 행동: 화면에 결과 이미지 여러 장이 떠 있다. 스크롤을 내리지만 아무것도 고르지 않는다.
 > 구도: 어깨너머 — 루아의 어깨 너머로 본 모니터 화면. 카메라 거리는 중경.
 >       뒤통수와 어깨만 보인다. 얼굴은 보이지 않는다.
 > 배경: 화면 속 결과물은 네모 몇 개로만. 실제 이미지나 서비스 UI를 그리지 마.
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> **이미지 안에 글자를 넣지 마.**
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "다 괜찮은데."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체.
@@ -289,15 +288,14 @@ Do not render any text in this image. (silent panel)
 > ```
 > Keep the exact same character (Lua) from the attached character sheet. Carry over the line
 > style of the previous panel.
-> Action: several generated images are now on screen. Her hand has left the mouse; she is just
-> looking at them.
+> Action: several generated images are now on screen. She scrolls through them but picks none.
 > Composition: over the shoulder — the monitor seen past her shoulder / camera distance MEDIUM.
 > Only the back of her head and her shoulders are visible. Her face is not visible.
 > Background: render the on-screen results as a few plain rectangles only. Do not draw real
 > images or any service UI.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> **Do not render any text in this image.**
+> Render this Korean text large, in neat handwriting style: "다 괜찮은데."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
@@ -360,7 +358,8 @@ Do not render any text in this image. (silent panel)
 > 배경: 엽서꽂이 가장자리와 책상 표면만. 엽서 그림은 단순한 선 몇 개로만 (구체적 그림 금지).
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "아, 이건 좀 좋다."
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
+> 상단 — "아, 이건 좀 좋다."   하단에 작게 — "삼 년째 안 버렸네."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 엽서 속 로고·브랜드명, 에피소드 제목.
@@ -380,7 +379,8 @@ Do not render any text in this image. (silent panel)
 > a few simple lines — no specific illustration.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> Render this Korean text large, in neat handwriting style: "아, 이건 좀 좋다."
+> Render this Korean text large, in neat handwriting style:
+> Top — "아, 이건 좀 좋다."   Small, bottom — "삼 년째 안 버렸네."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
@@ -404,7 +404,7 @@ Do not render any text in this image. (silent panel)
 > 화면 속 UI에 실제 서비스 이름이나 로고를 넣지 마.
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> **이미지 안에 글자를 넣지 마.**
+> 이미지 안에 다음 한글 텍스트를 상단 여백에 손글씨 느낌으로 크게 넣어줘: "입력창은 그냥 비워뒀다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체.
@@ -425,7 +425,7 @@ Do not render any text in this image. (silent panel)
 > Put no real service name or logo in the on-screen UI.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> **Do not render any text in this image.**
+> Render this Korean text in the top margin, large, in neat handwriting style: "입력창은 그냥 비워뒀다."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
@@ -441,7 +441,7 @@ Do not render any text in this image. (silent panel)
 - [x] 카메라 구도·거리가 콘티와 일치하는가 — 와이드/중경/디테일/디테일/중경
 - [x] 생활 디테일이 프롬프트에 들어갔는가 — 컷3 전체가 흔들리는 발
 - [x] **"한 장면만" 문구가 모든 컷에 있는가**
-- [x] **무대사 컷에 "글자를 넣지 마" 지시가 있는가** — 컷2·컷3·여운
+- [x] **무대사 컷에 "글자를 넣지 마" 지시가 있는가** — 컷3
 - [x] **본편 프롬프트에 에피소드 제목·컷 번호가 들어가지 않았는가**
 - [x] 표지는 0번 실사 배경 콜라주 워크플로로 별도 작성됐는가
 - [x] 컷1~4·여운 모두 character_sheet.png 첨부 지시 포함

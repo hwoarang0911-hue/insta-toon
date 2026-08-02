@@ -1,45 +1,56 @@
-# [ep003] 3악장에서 딴생각 — 이미지 렌더링 지시서
+# [ep003] 조용한 데가 제일 안 조용하다 — 이미지 렌더링 지시서
 
-> **프롬프트 우선순위** (`brand/06_IMAGE_RULE.md`) — 물리적 장면이 분위기보다 먼저다.
-> 각 컷 프롬프트는 콘티의 `visible_action`에서 시작한다.
->
-> **본편 컷(2~6장)에 에피소드 제목·컷 번호·다른 컷 문구를 넣지 않는다.** 제목은 표지에만.
-> **카페 브랜드명·로고는 어떤 컷에도 넣지 않는다.**
-> 따옴표 안 문구는 `02_storyboard.md`의 「이미지에 들어가는 글자」 표와 글자 하나까지 같아야 한다.
+6장 각각에 대해 나노바나나(Gemini)용과 GPT용 프롬프트를 모두 제공한다.
+사용자는 도구를 골라 해당 프롬프트만 복사해 쓰면 된다.
 
-# 0. 표지(1장) — 실사 배경 콜라주
+> ## ⚠️ 프롬프트 안의 한글 문구 = 이미지에 그려질 글자
+> 따옴표 안 문구는 `02_storyboard.md`의 **「이미지에 들어가는 글자」 표와
+> 글자 하나까지 같아야 한다.**
+> 프롬프트를 쓰기 전에 그 표를 먼저 열어 대조한다.
+
+> ## ⚠️ 카페 브랜드명·로고 금지
+> 이 화의 무대는 홍대 길가의 미니멀한 유리창 카페다. 실제 카페 브랜드의 이름·로고·간판은
+> **어떤 컷에도 넣지 않는다** (`brand/03_DRAWING_STYLE.md` 금지). 컵·창문·간판 전부 무지로 그린다.
+
+# 0. 표지(1장) — 실사 배경 콜라주 (예외 워크플로)
+
+> **표지만 다른 5장과 만드는 방식이 다르다.** 배경은 실제 사진, 캐릭터는 손그림 컷아웃을 합성한다.
+> 컷1~4·여운(2~6장)은 아래 「🚀 한 번에 전달하기」로 넘어간다.
+> (`brand/03_DRAWING_STYLE.md` 표지 예외, `brand/06_IMAGE_RULE.md` 표지 합성 절차 참고)
 
 ## 실행 순서 (4단계)
-1. **비 오는 날 홍대 길가 사진**을 준비한다 (카페 유리창 너머 젖은 거리). 실제 간판·로고가 찍혔으면 잘라내거나 지운다
+1. **비 오는 날 홍대 길가 사진**을 준비한다 (직접 촬영 권장 — 카페 유리창 너머 젖은 거리, 우산 쓴 사람들).
+   ※ 사진에 실제 카페 간판·로고가 찍혔으면 잘라내거나 흐리게 지운다
 2. 아래 캐릭터 컷아웃 프롬프트로 **배경 없는 캐릭터만** 생성 (character_sheet.png 첨부)
-3. 사진 위에 캐릭터 컷아웃을 배치, 흰 테두리를 살려 스티커처럼. **원근과 빛을 사진에 맞춘다**
-4. 제목 "3악장에서 딴생각"을 손글씨 폰트로 **화면 상단**에 얹는다. 캐릭터는 우하단 — **겹치지 않게**
+3. 사진 편집 툴(캔바, 미리캔버스, 포토샵 등)에서 사진 위에 캐릭터 컷아웃을 배치, 흰 테두리를 살려 스티커처럼 보이게 한다
+4. 표지 문구를 손글씨 느낌 폰트로 얹는다: "이 곡, 조용한 데가 제일 안 조용하다"
 
-> 표지 장면은 컷1에 실제로 나오는 장면이다. 상징적 장면을 새로 만들지 않았다.
-
-### 캐릭터 컷아웃 — 한국어판 (Gemini/나노바나나)
+### 캐릭터 컷아웃 프롬프트 — 한국어판 (Gemini/나노바나나)
 ```
 첨부한 캐릭터 시트의 루아를 그대로 유지해서 그려줘. 캐릭터 시트가 외형의 기준이다.
-상반신. 비를 맞아 머리끝이 젖은 채로 이어폰을 끼고, 옆쪽을 조용히 보고 있다(생각 중).
-캐릭터가 화면에서 작아지지 않게, 작은 화면에서도 형태가 뚜렷이 보이는 크기로.
-배경은 순백색(#ffffff), 캐릭터만 오려내기 쉽게. 배경 요소는 아무것도 넣지 마.
+상반신. 비를 맞아 머리끝이 살짝 젖은 상태로, 이어폰을 낀 채 옆쪽을 조용히 바라보는 표정(생각 중).
+캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+배경은 순백색(#ffffff)으로, 캐릭터만 오려내기 쉽게 그려줘. 배경 요소는 아무것도 넣지 마.
 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 해칭 음영.
 소지품(토트백, 컵 등)에 로고나 브랜드명을 넣지 마.
 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 배경 요소 일체, 로고·워드마크.
 4:5 비율(1080×1350).
 ```
 
-### 캐릭터 컷아웃 — 영어판 (ChatGPT)
+### 캐릭터 컷아웃 프롬프트 — 영어판 (ChatGPT)
 ```
 Keep the exact same character (Lua) from the attached character sheet — it is the source of
-truth for her appearance: a Korean woman in her mid-20s, shoulder-length wavy black hair,
+truth for her appearance:
+a Korean woman in her mid-20s, shoulder-length wavy black hair,
 tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants.
-Action: upper body, hair damp from the rain, wearing earphones, looking quietly off to one side.
-Keep her large enough to read clearly on a small (mobile) screen.
-Background: pure flat white (#ffffff), nothing else — she must be easy to cut out cleanly.
-Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white, hatching.
-No logos or brand names on any accessory.
-Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, background elements, logos.
+Pose/expression: upper body, hair slightly damp from the rain, wearing earphones,
+looking quietly off to one side (thoughtful expression).
+Keep the character large enough to read clearly on a small (mobile) screen — do not draw her too small.
+Background: pure flat white (#ffffff), nothing else — the character must be easy to cut out cleanly.
+Style: hand-drawn fountain pen sketch, thick and irregular wobbly ink lines,
+black and white, hatching for shade.
+No logos or brand names on any accessory (tote bag, cup, etc).
+Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, any background elements, logos/wordmarks.
 4:5 aspect ratio (1080x1350).
 ```
 
@@ -47,9 +58,16 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 
 # 🚀 한 번에 전달하기 (컷1~4 + 여운 · 2~6장)
 
+> **매 화 반드시 작성한다.** 사용자가 이미지 AI에 한 번 붙여넣어 나머지 5장을 뽑는 실물이다.
+> 링크·외부 참조 없이 **이것만으로 완결**되어야 한다 (캐릭터 스펙·그림체·금지·비율 포함).
+> 표지(1장)는 여기 포함되지 않는다 — 위 0번 워크플로로 별도 제작한다.
+
+## 실행 순서 (3단계)
 1. 이미지 생성 AI에 **`assets/character_sheet.png` 첨부**
-2. 아래 통합 프롬프트를 **통째로 복사해 붙여넣기**
+2. 아래 통합 프롬프트를 **통째로 복사해 붙여넣기** (도구에 맞는 언어판)
 3. 컷1(2장)이 나오면 **그 이미지를 첨부하고 "다음 장"** → 여운(6장)까지 반복
+
+---
 
 ## (A) 통합 프롬프트 — 한국어판 · Gemini / 나노바나나용
 
@@ -58,65 +76,57 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 
 ❗ 규칙 1 — 5장을 한 이미지에 모아 그리지 마.
    각 장은 완전히 독립된 별개의 이미지다. 한 이미지 = 한 장면 하나.
-   격자 배치, 콜라주, 분할 화면, 여러 장면을 한 화면에 넣기 전부 금지.
-   다른 컷의 문구를 넣지 마. 에피소드 제목과 컷 번호도 넣지 마.
+   격자 배치, 콜라주, 4컷 만화식 분할, 여러 장면을 한 화면에 넣기 전부 금지.
 
 ❗ 규칙 2 — 지금은 아래 [2장 · 컷1]만 만들어.
    3~6장은 내가 "다음 장"이라고 말할 때까지 만들지 마.
+   아래에 전체 목록을 미리 주는 건 그림체와 이야기 흐름을 알려주기 위해서다.
 
 [모든 장에 공통 적용]
 · 캐릭터: 20대 한국 여성. 어깨에 닿는 검은 웨이브 단발, 작은 점 같은 눈,
-  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백(로고 없음).
+  담백한 표정, 무지 긴팔 상의와 통 넓은 바지, 각진 토트백(로고·브랜드명 없음).
   첨부한 캐릭터 시트의 인물을 그대로 유지할 것 — 세부 외형은 그 시트가 기준이다.
 · 무대: 홍대 길가의 큰 유리창 카페. 회색 콘크리트와 나무의 미니멀한 실내.
-  간판·컵·창문 어디에도 실제 브랜드 이름이나 로고를 넣지 마. 전부 무지로.
-· 캐릭터 크기: 화면에서 작아지지 않게. 작은 화면에서도 형태가 뚜렷이 보이는 크기로.
-· 그림체: 손으로 그린 만년필 펜 스케치. 선은 두껍고 불규칙하다.
-  흑백, 배경색은 흰색(#ffffff), 음영은 해칭(빗금)으로만. 배경 묘사는 짧게.
-· 이 화의 그림 규칙: 유리창을 경계로 안쪽은 선을 거의 쓰지 않고, 바깥쪽은 빗줄기 해칭을 빽빽하게.
-· 프레임: 컷 가장자리에 손으로 그린 테두리선을 두를 것.
-· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경,
-        로고·브랜드명, 장면에 없는 상징물.
+  카페 간판·컵·창문 어디에도 실제 브랜드 이름이나 로고를 넣지 말 것. 전부 무지로.
+· 캐릭터 크기: 화면에서 작아지지 않게. 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로.
+· 그림체: 손으로 그린 만년필 펜 스케치. 선은 두껍고 불규칙하며 굵기가 일정하지 않다.
+  흑백, 배경색은 흰색(#ffffff), 음영은 해칭(빗금)으로만.
+  배경 묘사는 짧게, 최소한으로만 (표지와 달리 실사 배경 없음 — 전부 손그림 배경).
+· 이 화의 그림 규칙: 유리창을 경계로 **안쪽은 선을 거의 쓰지 않고, 바깥쪽은 빗줄기 해칭을 빽빽하게**.
+  같은 화면에서 고요와 폭우가 붙어 있게 그린다.
+· 텍스트: 크게 — 작은 화면에서도 한 번에 읽히는 크기로.
+· 프레임: 컷 가장자리에 손으로 그린 테두리선(외곽선)을 두를 것.
+· 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명 노출.
 · 비율: 4:5 (1080×1350)
+· 각 장에 지정된 한글 텍스트를 이미지 안에 손글씨 느낌으로 정확히 넣을 것.
 · 3장부터는 직전에 만든 그림의 인물과 선 스타일을 그대로 이어갈 것.
-· 각 장의 카메라 거리가 다르다. 지정된 구도를 그대로 지킬 것.
 
 === 지금 만들 것 ===
 [2장 · 컷1]
-행동: 비를 맞은 여성이 카페 문을 밀고 들어와 창가 자리에 가방을 내려놓는다. 어깨와 토트백이 젖어 있다.
-구도: 공간 와이드숏 / 카메라 거리 와이드 — 카페 실내 전체가 보이고 인물은 그 안에 있다.
-배경: 큰 유리창, 회색 콘크리트와 나무의 실내. 창밖은 퍼붓는 비.
-표정: 생각 중.
-이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "다 젖었네."
+소나기. 비를 맞은 루아가 홍대 길가 카페 문을 밀고 들어선다. 어깨와 토트백이 젖어 있다.
+큰 유리창, 회색 콘크리트와 나무의 미니멀한 실내. 밖은 빗줄기 해칭으로 어수선하게, 안은 선을 최소한으로.
+넣을 글자 — "비를 쫄딱 맞고 홍대 길가 카페로 뛰어들었다. 이어폰에선 아직 비발디의 여름이 흐르고 있었다."
 
 === 아래는 이후 순서. 지금 만들지 말 것 ===
+[3장 · 컷2] 창가 자리에 앉은 루아. 컵을 앞에 두고 이어폰에 귀를 기울인다. 실내는 아주 조용하다. 표정은 고민 중.
+  유리창은 아직 화면 가장자리에만 걸치게.
+  넣을 글자 — 상단 "자리에 앉으니 안은 조용하다. 근데 곡은 느린 악장인데 저 아래에서 뭔가 계속 웅웅거린다."
+  하단에 작게 "조용한 부분인데 왜 하나도 안 편하지?"
 
-[3장 · 컷2]
-행동: 이어폰에서 곡이 격해지는 부분이 나오고, 컵으로 가던 손이 그대로 멈춘다.
-구도: 얼굴 일부 — 귀와 이어폰, 눈 아래까지만 / 카메라 거리 클로즈업.
-배경: 뒤로 창의 밝은 면만 흐리게.
-표정: 눈이 살짝 커진 정도.
-이미지 안에 글자를 넣지 마. (무대사 컷)
+[4장 · 컷3] 고개를 돌려 창밖을 보는 루아. 유리 한 장 너머로 퍼붓는 비, 우산 쓴 사람들, 젖은 길이 그대로 다 보인다.
+  유리를 경계로 안쪽은 선이 거의 없고 바깥쪽은 빗줄기 해칭이 빽빽하게. 이 화의 가장 조용한 컷.
+  넣을 글자 — "유리 한 장 너머로 비가 그대로 다 보인다. 소리만 없고 나머지는 하나도 안 사라졌다."
 
-[4장 · 컷3]
-행동: 시선이 창밖 사람에게 가 있다. 우산 없이 뛰어가는 사람이 지나간다. 컵을 쥔 손가락엔 빨대 비닐이 붙어 있다.
-구도: 캐릭터 시점 — 루아가 보는 창밖. 화면 아래쪽에 컵을 쥔 손만 걸친다 / 카메라 거리 중경.
-       얼굴은 보이지 않는다.
-배경: 유리 너머 젖은 길, 우산 쓴 사람들, 뛰어가는 사람 하나. 밖의 사람들은 얼굴 없는 실루엣으로.
-이미지 안에 다음 한글 텍스트를 넣어줘: "저 사람 우산 없네."
+[5장 · 컷4] 여전히 창밖을 보는 루아의 옆모습, 옅은 미소. 컵을 두 손으로 감싸 쥐고 있다. 배경은 유리창과 빗줄기만, 여백 크게.
+  넣을 글자 — 상단 "아, 조용해져도 밖은 안 사라지니까 그렇구나. 비발디는 그 조용함을 이렇게 써놨다."
+  하단에 작게 "잘 썼다는 말이 이제야 무슨 뜻인지 알겠다."
 
-[5장 · 컷4]
-행동: 이어폰에서 다른 곡이 시작되고, 휴대폰을 들어 화면을 확인한다. 손가락엔 빨대 비닐이 아직 붙어 있다.
-구도: 손 디테일 — 휴대폰을 든 손, 화면, 손가락의 비닐 / 카메라 거리 디테일. 얼굴은 프레임 밖.
-배경: 테이블 표면과 컵 아랫부분만.
-이미지 안에 다음 한글 텍스트를 넣어줘: "어, 벌써 끝났나."
-
-[6장 · 여운]
-행동: 테이블 위. 컵 옆에 떼어놓은 빨대 비닐이 놓여 있다. 창밖 비가 가늘어져 있다.
-구도: 어깨너머 — 루아의 어깨 너머로 본 테이블과 창 / 카메라 거리 중경. 인물은 어깨 실루엣만.
-배경: 컵, 비닐, 유리, 가늘어진 빗줄기. 여백을 크게.
-이미지 안에 글자를 넣지 마. (무대사 컷)
+[6장 · 여운] 멀리서 본 창가 자리. 이어폰을 뺀 루아의 작은 뒷모습이 창밖을 보고 있다. 원경.
+  여백이 화면의 60% 이상. 유리에 맺힌 물방울 몇 개만 소품으로.
+  넣을 글자 — 상단 여백에 "이어폰을 뺐다. 창밖이 계속 그 곡이었다."
 ```
+
+---
 
 ## (B) 통합 프롬프트 — 영어판 · ChatGPT용
 
@@ -126,79 +136,81 @@ the cover panel is made separately). Two critical rules first.
 
 IMPORTANT 1 — Do NOT combine the panels into one image.
    Each panel is a completely separate, standalone image. One image = one scene.
-   No grids, no collages, no split screens, no multiple moments in one frame.
-   Do not include text from any other panel. No episode title, no panel numbers.
+   No grids, no collages, no 4-panel comic layouts, no multiple scenes in one frame.
 
 IMPORTANT 2 — Generate ONLY [Panel 2] right now.
    Do not generate panels 3-6 until I say "next".
+   The full list below is given in advance only so you know the art style and story flow.
 
 [Apply to every panel]
-· Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair, tiny dot eyes,
-  calm minimal expression, plain long-sleeve top, wide-leg pants, a boxy tote bag (no logo).
-  Keep the exact same character as the attached character sheet — it is the source of truth.
-· Setting: a minimal cafe with large street-facing windows in Hongdae, Seoul. Grey concrete
-  and wood interior. Put no real brand name or logo anywhere — signage, cup, window stay blank.
-· Character size: keep her large enough to read clearly on a small (mobile) screen.
-· Style: hand-drawn fountain pen sketch. Thick, irregular, wobbly ink lines. Black and white
-  on a pure white (#ffffff) background. Shading only through hatching. Background kept brief.
-· Episode-specific rule: use the window as a divider — almost no linework inside,
-  dense rain hatching outside.
+· Character: a Korean woman in her mid-20s. Shoulder-length wavy black hair,
+  tiny dot eyes, calm minimal expression, plain long-sleeve top, wide-leg pants,
+  a boxy tote bag (no logo or brand name). Keep the exact same character as the
+  attached character sheet — it is the source of truth for her appearance.
+· Setting: a minimal cafe with large street-facing windows in Hongdae, Seoul.
+  Grey concrete and wood interior. Do NOT put any real brand name or logo anywhere —
+  not on the signage, the cup, or the window. Everything stays blank.
+· Character size: keep her large enough to read clearly on a small (mobile) screen —
+  do not draw her too small.
+· Style: hand-drawn fountain pen sketch. Thick, irregular, wobbly ink lines of uneven
+  weight. Black and white on a pure white (#ffffff) background. Shading only through
+  hatching. Background description kept minimal and brief (unlike the cover, no photo
+  background — every background here is hand-drawn).
+· Rule specific to this episode: use the window as a divider — **almost no linework on the
+  inside, dense rain hatching on the outside.** Stillness and downpour sit side by side in
+  the same frame.
+· Text: large — readable at a glance on a small screen.
 · Frame: draw a hand-drawn border/outline around the edge of each panel.
-· Avoid: 3D, realistic skin, Japanese anime style, glossy webtoon coloring, gradients,
-  complex backgrounds, logos or brand names, symbolic objects not in the scene.
+· Avoid: 3D, realistic skin, Japanese anime style, glossy webtoon coloring,
+  gradients, complex backgrounds, logos or brand names.
 · Aspect ratio: 4:5 (1080x1350)
+· Render the Korean text specified for each panel inside the image, in neat
+  handwriting style, exactly as written.
 · From panel 3 onward, carry over the character and line style of the previous image.
-· Each panel uses a DIFFERENT camera distance. Follow the specified composition exactly.
 
 === GENERATE PANEL 2 ONLY. THE REST COME LATER ===
 [Panel 2 · cut 1]
-Action: soaked from the rain, she pushes open the cafe door and sets her bag down at the
-  window seat. Her shoulders and tote bag are wet.
-Composition: wide establishing shot of the room / camera distance WIDE — the whole interior
-  is visible and she is inside it.
-Background: large windows, grey concrete and wood interior. Outside, pouring rain.
-Expression: thoughtful.
-Render this Korean text large, in neat handwriting style: "다 젖었네."
+A sudden summer downpour. Lua, soaked, pushes open the door of a street-facing cafe in
+Hongdae. Her shoulders and tote bag are wet. Large windows, grey concrete and wood
+interior. Outside is busy with rain hatching; inside uses as little linework as possible.
+Text to render — "비를 쫄딱 맞고 홍대 길가 카페로 뛰어들었다. 이어폰에선 아직 비발디의 여름이 흐르고 있었다."
 
 === BELOW: LATER PANELS. DO NOT GENERATE YET ===
+[Panel 3 · cut 2] Lua sits at the window seat, a cup in front of her, listening closely to her
+  earphones. The interior is very quiet. Pondering expression. The window only grazes the
+  edge of the frame for now.
+  Text — top: "자리에 앉으니 안은 조용하다. 근데 곡은 느린 악장인데 저 아래에서 뭔가 계속 웅웅거린다."
+  small, bottom: "조용한 부분인데 왜 하나도 안 편하지?"
 
-[Panel 3 · cut 2]
-Action: the music in her earphones swells, and her hand stops halfway to the cup.
-Composition: partial face — only her ear, the earphone, and down to just below her eyes /
-  camera distance CLOSE-UP.
-Background: only the bright plane of the window behind, blurred.
-Expression: eyes just slightly widened.
-Do not render any text in this image. (silent panel)
+[Panel 4 · cut 3] Lua turns her head to look out the window. Through a single pane of glass,
+  the pouring rain, people under umbrellas, and the soaked street are all fully visible.
+  The window divides the frame: almost no linework inside, dense rain hatching outside.
+  The quietest panel of the episode.
+  Text — "유리 한 장 너머로 비가 그대로 다 보인다. 소리만 없고 나머지는 하나도 안 사라졌다."
 
-[Panel 4 · cut 3]
-Action: her gaze is out the window. Someone runs past without an umbrella. A strip of straw
-  wrapper is stuck to the finger holding her cup.
-Composition: her point of view — the street through the glass, with only her cup-holding hand
-  entering the bottom of the frame / camera distance MEDIUM. Her face is not visible.
-Background: wet street through the glass, people under umbrellas, one person running.
-  People outside are faceless silhouettes only.
-Render this Korean text: "저 사람 우산 없네."
+[Panel 5 · cut 4] Lua's side profile, still watching out the window, a faint smile, both hands
+  wrapped around the cup. Background is only the window and rain, generous negative space.
+  Text — top: "아, 조용해져도 밖은 안 사라지니까 그렇구나. 비발디는 그 조용함을 이렇게 써놨다."
+  small, bottom: "잘 썼다는 말이 이제야 무슨 뜻인지 알겠다."
 
-[Panel 5 · cut 4]
-Action: a different track starts in her earphones; she lifts her phone to check the screen.
-  The straw wrapper is still stuck to her finger.
-Composition: hand detail — the hand holding the phone, the screen, the wrapper on her finger /
-  camera distance DETAIL. Her face is out of frame.
-Background: only the table surface and the base of the cup.
-Render this Korean text: "어, 벌써 끝났나."
-
-[Panel 6 · closing]
-Action: the tabletop. Beside the cup lies the straw wrapper she peeled off. Outside the
-  window, the rain has thinned.
-Composition: over the shoulder — the table and window seen past her shoulder /
-  camera distance MEDIUM. Only her shoulder silhouette is in frame.
-Background: cup, wrapper, glass, thinned rain. Generous negative space.
-Do not render any text in this image. (silent panel)
+[Panel 6 · closing] A wide shot of the window seat from a distance. Lua's small figure from
+  behind, earphones now removed, still facing the window. Negative space covers 60%+ of the
+  frame. Only a few droplets on the glass as props.
+  Text — in the top margin: "이어폰을 뺐다. 창밖이 계속 그 곡이었다."
 ```
 
-## (C) 후보정용 글자표
+---
+
+## (C) 링크로 전달하려면
+
+저장소가 private이면 외부 AI가 raw 링크를 읽지 못한다. 둘 중 하나를 쓴다:
+- **Secret Gist** (권장): 통합 프롬프트만 gist.github.com에 Secret으로 올리고 Raw URL 사용
+- 저장소 public 전환 (브랜드 문서가 전부 공개되므로 신중히)
+
+※ 어느 방법이든 **캐릭터 시트는 직접 첨부**한다.
+
+## (D) 후보정용 글자표
 한글이 깨지면 텍스트 없이 생성 후 `02_storyboard.md`의 「이미지에 들어가는 글자」 표 기준으로 손글씨 폰트 삽입.
-**컷2와 여운은 원래 무대사다** — 글자를 넣지 않는다.
 
 ---
 ---
@@ -206,256 +218,250 @@ Do not render any text in this image. (silent panel)
 # 컷별 상세 프롬프트
 
 > 통합 프롬프트로 만족스럽지 않은 컷만 아래에서 골라 다시 돌린다.
-> 표지(1장)는 위 0번의 컷아웃 프롬프트를 쓴다.
+> **표지(1장)는 여기 포함되지 않는다** — 위 0번의 컷아웃 프롬프트를 쓴다. 아래는 컷1~4·여운(2~6장)만 해당.
 
 ## 공통 준비물
 - 참조 1: `assets/character_sheet.png` — **모든 컷에 첨부**
-- 참조 2: 직전에 생성한 컷 이미지 — **3장부터 첨부**
+- 참조 2: 직전에 생성한 컷 이미지 — **3장부터 첨부** (연속성)
 - 스타일 흔들림 시: `assets/samples/sample_4cut_bruckner_mahler.png` 추가 첨부
 
-## 스타일 고정 문구
-- 한국어: "손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게, 캐릭터는 화면에서 작지 않게, 컷 가장자리에 테두리선, 4:5 비율"
-- 영어: "hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white, pure white (#ffffff) background, hatching for shade, minimal background description, hand-drawn panel border, 4:5 aspect ratio"
-- 네거티브: "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명, 에피소드 제목·컷 번호, 장면에 없는 상징물"
+## 스타일 고정 문구 (매 컷 프롬프트에 포함됨)
+- 한국어: "손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게, 캐릭터는 화면에서 작지 않게, 텍스트는 크게, 컷 가장자리에 테두리선, 4:5 비율"
+- 영어: "hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white, pure white (#ffffff) background, hatching for shade, minimal background description, character kept large enough for mobile screens, large text, hand-drawn panel border, 4:5 aspect ratio"
+- 네거티브(금지): "3D, realistic skin, anime style, glossy webtoon coloring, gradients, complex background, logos or brand names" / "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명 노출 금지"
 
 ---
 
-## 2장 — 컷1 (와이드)
+## 2장 — 컷1
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png
+>
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
-> 행동: 비를 맞은 루아가 카페 문을 밀고 들어와 창가 자리에 가방을 내려놓는다. 어깨와 토트백이 젖어 있다.
-> 구도: 공간 와이드숏. 카메라 거리는 와이드 — 카페 실내 전체가 보이고 인물은 그 안에 있다.
-> 배경: 큰 유리창, 회색 콘크리트와 나무의 미니멀한 실내. 창밖은 퍼붓는 비.
->       밖은 빗줄기 해칭으로 빽빽하게, 안은 선을 최소한으로.
-> 표정: 생각 중.
-> 간판·컵·창문에 실제 브랜드 이름이나 로고를 넣지 마. 전부 무지로.
-> 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
-> 만화 격자, 콜라주, 분할 화면, 여러 순간을 한 장에 넣지 마. 다른 컷의 문구를 넣지 마.
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "다 젖었네."
-> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경,
-> 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목, 컷 번호.
+> 소나기. 비를 맞은 루아가 홍대 길가 카페 문을 밀고 들어선다. 어깨와 토트백이 젖어 있다.
+> 큰 유리창, 회색 콘크리트와 나무의 미니멀한 실내. 표정은 생각 중.
+> 밖은 빗줄기 해칭으로 어수선하게, 안은 선을 최소한으로 — 한 컷 안에서 밖과 안이 갈리게.
+> 카페 간판·컵·창문 어디에도 실제 브랜드 이름이나 로고를 넣지 마. 전부 무지로.
+> 캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
+> "비를 쫄딱 맞고 홍대 길가 카페로 뛰어들었다. 이어폰에선 아직 비발디의 여름이 흐르고 있었다."
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
 > 4:5 비율(1080×1350).
 > ```
 
-### 🤖 GPT
+### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png
+>
 > ```
-> Keep the exact same character (Lua) from the attached character sheet — it is the source of
-> truth for her appearance: a Korean woman in her mid-20s, shoulder-length wavy black hair,
-> tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants, a boxy tote bag.
-> Action: soaked from the rain, she pushes open the cafe door and sets her bag down at the
-> window seat. Her shoulders and tote bag are wet.
-> Composition: wide establishing shot / camera distance WIDE — the whole interior is visible.
-> Background: large windows, grey concrete and wood minimal interior, pouring rain outside.
-> Dense rain hatching outside, minimal linework inside.
-> Expression: thoughtful.
-> No real brand name or logo anywhere — signage, cup, window stay blank.
-> Generate one standalone image containing only this single scene.
-> Do not create a comic grid, collage, split screen, or multiple moments.
-> Do not include text from any other panel.
-> Render this Korean text large, in neat handwriting style: "다 젖었네."
-> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
-> pure white (#ffffff) background, hatching for shade, minimal background description.
-> Draw a hand-drawn border/outline around the panel edge.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, episode titles, panel numbers.
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance:
+> a Korean woman in her mid-20s, shoulder-length wavy black hair,
+> tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants,
+> a boxy tote bag (no logo or brand name).
+> Scene: a sudden summer downpour. Soaked, Lua pushes open the door of a street-facing
+> cafe in Hongdae. Her shoulders and tote bag are wet. Large windows, grey concrete and
+> wood minimal interior. Thoughtful expression. Outside is busy with rain hatching;
+> inside uses as little linework as possible, so the frame splits into outside and inside.
+> Put no real brand name or logo anywhere — signage, cup, window all stay blank.
+> Keep her large enough to read clearly on a small (mobile) screen — do not draw her too small.
+> Render this Korean text large, in neat handwriting style: "비를 쫄딱 맞고 홍대 길가 카페로 뛰어들었다. 이어폰에선 아직 비발디의 여름이 흐르고 있었다."
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
 > 4:5 aspect ratio (1080x1350).
 > ```
+> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
 ---
 
-## 3장 — 컷2 (클로즈업 · 무대사)
+## 3장 — 컷2
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(2장)
+>
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 이어폰에서 곡이 격해지는 부분이 나오고, 컵으로 가던 손이 그대로 멈춘다.
-> 구도: 얼굴 일부 — 귀와 이어폰, 눈 아래까지만. 카메라 거리는 클로즈업.
-> 배경: 뒤로 창의 밝은 면만 흐리게. 배경 요소는 최소한으로.
-> 표정: 눈이 살짝 커진 정도. 그 이상 놀라지 않는다.
-> 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
-> 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> **이미지 안에 글자를 넣지 마.**
-> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
-> 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
+> 창가 자리에 앉은 루아. 컵을 앞에 두고 이어폰에 귀를 기울인다. 실내는 아주 조용하다.
+> 턱에 손을 얹고 골몰히 생각하는 표정(고민 중). 유리창은 아직 화면 가장자리에만 걸치게 — 아직 밖을 제대로 보지 않았다.
+> 컵에 로고나 브랜드명을 넣지 마. 무지 컵으로.
+> 캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
+> 상단 — "자리에 앉으니 안은 조용하다. 근데 곡은 느린 악장인데 저 아래에서 뭔가 계속 웅웅거린다."
+> 하단에 작게 — "조용한 부분인데 왜 하나도 안 편하지?"
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
 > 4:5 비율(1080×1350).
 > ```
 
-### 🤖 GPT
+### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png + 직전 컷(2장)
+>
 > ```
-> Keep the exact same character (Lua) from the attached character sheet. Carry over the line
-> style of the previous panel.
-> Action: the music in her earphones swells, and her hand stops halfway to the cup.
-> Composition: partial face — only her ear, the earphone, and down to just below her eyes /
-> camera distance CLOSE-UP.
-> Background: only the bright plane of the window behind, blurred. Keep it minimal.
-> Expression: eyes just slightly widened, no more than that.
-> Generate one standalone image containing only this single scene.
-> Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> **Do not render any text in this image.**
-> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
-> pure white (#ffffff) background, hatching for shade.
-> Draw a hand-drawn border/outline around the panel edge.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, any text.
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance. Same outfit and line style as the previous panel.
+> Scene: Lua sits at the window seat, a cup in front of her, listening closely to her
+> earphones. The interior is very quiet. Chin resting on her hand, deep in thought
+> (pondering expression). The window only grazes the edge of the frame — she has not
+> properly looked outside yet. The cup stays blank, no logo or brand name.
+> Keep her large enough to read clearly on a small (mobile) screen — do not draw her too small.
+> Render this Korean text large, in neat handwriting style:
+> Top — "자리에 앉으니 안은 조용하다. 근데 곡은 느린 악장인데 저 아래에서 뭔가 계속 웅웅거린다."
+> Small, bottom — "조용한 부분인데 왜 하나도 안 편하지?"
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
 > 4:5 aspect ratio (1080x1350).
 > ```
+> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
 ---
 
-## 4장 — 컷3 (중경 · 캐릭터 시점)
+## 4장 — 컷3
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(3장)
+>
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 루아의 시선이 창밖 사람에게 가 있다. 우산 없이 뛰어가는 사람이 지나간다.
->       컵을 쥔 손가락엔 빨대 비닐이 붙어 있다.
-> 구도: 캐릭터 시점 — 루아가 보는 창밖을 그린다. 화면 아래쪽에 컵을 쥔 손만 걸친다.
->       카메라 거리는 중경. **루아의 얼굴은 보이지 않는다.**
-> 배경: 유리 너머 젖은 길, 우산 쓴 사람들, 뛰어가는 사람 하나.
->       밖의 사람들은 얼굴 없는 실루엣으로만. 유리 안쪽은 선을 거의 쓰지 않는다.
-> 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
-> 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "저 사람 우산 없네."
-> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
-> 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
+> 고개를 돌려 창밖을 보는 루아. 유리 한 장 너머로 퍼붓는 비, 우산 쓴 사람들, 젖은 길이 그대로 다 보인다.
+> 실내에는 소리가 없다. 표정은 생각 중.
+> 이 컷의 핵심: 유리를 경계로 **안쪽(루아 쪽)은 선이 거의 없이 비우고, 바깥쪽은 빗줄기 해칭을 빽빽하게** 채워서
+> 같은 화면 안에 고요와 폭우가 나란히 붙어 있게 그려줘. 이 에피소드의 가장 조용한 컷이다.
+> 밖의 사람들은 얼굴 없는 실루엣으로만.
+> 캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
+> "유리 한 장 너머로 비가 그대로 다 보인다. 소리만 없고 나머지는 하나도 안 사라졌다."
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
 > 4:5 비율(1080×1350).
 > ```
 
-### 🤖 GPT
+### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png + 직전 컷(3장)
+>
 > ```
-> Keep the exact same character (Lua) from the attached character sheet. Carry over the line
-> style of the previous panel.
-> Action: her gaze is out the window. Someone runs past without an umbrella. A strip of straw
-> wrapper is stuck to the finger holding her cup.
-> Composition: her point of view — the street through the glass, with only her cup-holding
-> hand entering the bottom of the frame / camera distance MEDIUM. **Her face is not visible.**
-> Background: wet street through the glass, people under umbrellas, one person running.
-> People outside are faceless silhouettes only. Almost no linework on the inside of the glass.
-> Generate one standalone image containing only this single scene.
-> Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> Render this Korean text large, in neat handwriting style: "저 사람 우산 없네."
-> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
-> pure white (#ffffff) background, hatching for shade.
-> Draw a hand-drawn border/outline around the panel edge.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, episode titles.
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance. Same outfit and line style as the previous panel.
+> Scene: Lua turns her head to look out the window. Through a single pane of glass, the
+> pouring rain, people under umbrellas, and the soaked street are all fully visible.
+> Inside there is no sound. Thoughtful expression.
+> The key to this panel: use the window as a divider — **the inside (Lua's side) is left
+> almost empty with barely any linework, while the outside is filled with dense rain
+> hatching** — so stillness and downpour sit side by side in one frame. This is the
+> quietest panel of the episode. People outside are faceless silhouettes only.
+> Keep her large enough to read clearly on a small (mobile) screen — do not draw her too small.
+> Render this Korean text large, in neat handwriting style:
+> "유리 한 장 너머로 비가 그대로 다 보인다. 소리만 없고 나머지는 하나도 안 사라졌다."
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
 > 4:5 aspect ratio (1080x1350).
 > ```
+> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
 ---
 
-## 5장 — 컷4 (디테일 · 손)
+## 5장 — 컷4
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(4장)
+>
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 이어폰에서 다른 곡이 시작되고, 휴대폰을 들어 화면을 확인한다.
->       손가락엔 빨대 비닐이 아직 붙어 있다.
-> 구도: 손 디테일 — 휴대폰을 든 손, 화면, 손가락에 붙은 빨대 비닐.
->       카메라 거리는 디테일(가까이). **얼굴은 프레임 밖.**
-> 배경: 테이블 표면과 컵 아랫부분만. 그 외에는 비운다.
-> 휴대폰 화면에 실제 앱 로고나 브랜드명을 넣지 마. 화면은 단순한 선으로만.
-> 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
-> 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘: "어, 벌써 끝났나."
-> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
-> 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
+> 여전히 창밖을 보는 루아의 옆모습, 옅은 미소(좋아하는 순간 → 미소). 컵을 두 손으로 감싸 쥐고 있다.
+> 배경은 유리창과 빗줄기만, 여백을 크게 남긴다. 컵에 로고나 브랜드명을 넣지 마.
+> 4장과 같은 유리 경계 구도를 유지하되, 이번엔 화면을 조금 더 비운다.
+> 캐릭터가 화면에서 작아지지 않게, 작은 화면(모바일)에서도 형태가 뚜렷이 보이는 크기로 그려줘.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
+> 상단 — "아, 조용해져도 밖은 안 사라지니까 그렇구나. 비발디는 그 조용함을 이렇게 써놨다."
+> 하단에 작게 — "잘 썼다는 말이 이제야 무슨 뜻인지 알겠다."
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
 > 4:5 비율(1080×1350).
 > ```
 
-### 🤖 GPT
+### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png + 직전 컷(4장)
+>
 > ```
-> Keep the exact same character (Lua) from the attached character sheet. Carry over the line
-> style of the previous panel.
-> Action: a different track starts in her earphones; she lifts her phone to check the screen.
-> The straw wrapper is still stuck to her finger.
-> Composition: hand detail — the hand holding the phone, the screen, the wrapper on her finger /
-> camera distance DETAIL (close). **Her face is out of frame.**
-> Background: only the table surface and the base of the cup. Leave the rest empty.
-> No real app logos or brand names on the phone screen — render the screen as simple lines only.
-> Generate one standalone image containing only this single scene.
-> Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> Render this Korean text large, in neat handwriting style: "어, 벌써 끝났나."
-> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
-> pure white (#ffffff) background, hatching for shade.
-> Draw a hand-drawn border/outline around the panel edge.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, episode titles.
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance. Same outfit and line style as the previous panel.
+> Scene: Lua's side profile, still watching out the window, a faint smile (a moment of
+> quiet enjoyment → smile), both hands wrapped around the cup. Background is only the
+> window and rain, with generous negative space. The cup stays blank, no logo or brand name.
+> Keep the same window-as-divider composition as the previous panel, but empty the frame
+> a little further.
+> Keep her large enough to read clearly on a small (mobile) screen — do not draw her too small.
+> Render this Korean text large, in neat handwriting style:
+> Top — "아, 조용해져도 밖은 안 사라지니까 그렇구나. 비발디는 그 조용함을 이렇게 써놨다."
+> Small, bottom — "잘 썼다는 말이 이제야 무슨 뜻인지 알겠다."
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
 > 4:5 aspect ratio (1080x1350).
 > ```
+> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
 ---
 
-## 6장 — 여운 (중경 · 어깨너머 · 무대사)
+## 6장 — 여운
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(5장)
+>
 > ```
-> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 테이블 위에 컵이 있고, 그 옆에 떼어놓은 빨대 비닐이 놓여 있다. 창밖 비가 가늘어져 있다.
-> 구도: 어깨너머 — 루아의 어깨 너머로 본 테이블과 창. 카메라 거리는 중경.
->       인물은 화면 가장자리의 어깨 실루엣만. 얼굴은 보이지 않는다.
-> 배경: 컵, 빨대 비닐, 유리, 가늘어진 빗줄기. 여백을 화면의 60% 이상 남긴다.
-> 새로운 상징물을 넣지 마. 장면에 있는 것만 그린다.
-> 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
-> 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
-> **이미지 안에 글자를 넣지 마.**
-> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
-> 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체.
+> 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
+> 멀리서 본 창가 자리. 이어폰을 뺀 루아의 작은 뒷모습이 창밖을 보고 있다. 원경.
+> 여백이 화면의 60% 이상. 유리에 맺힌 물방울 몇 개만 소품으로.
+> 캐릭터는 작게 배치하되, 작은 화면에서도 뒷모습의 형태는 뚜렷이 보이는 크기를 유지해줘.
+> 카페 간판·컵 어디에도 브랜드 이름이나 로고를 넣지 마.
+> 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘 (상단 여백에):
+> "이어폰을 뺐다. 창밖이 계속 그 곡이었다."
+> 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백,
+> 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게. 컷 가장자리에 손그림 테두리선을 둘러줘.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명.
 > 4:5 비율(1080×1350).
 > ```
 
-### 🤖 GPT
+### 🤖 GPT (이미지 생성)
 > **첨부**: character_sheet.png + 직전 컷(5장)
+>
 > ```
-> Keep the exact same character (Lua) from the attached character sheet. Carry over the line
-> style of the previous panel.
-> Action: the tabletop. A cup, and beside it the straw wrapper she peeled off. Outside the
-> window, the rain has thinned.
-> Composition: over the shoulder — the table and window seen past her shoulder /
-> camera distance MEDIUM. Only her shoulder silhouette is in frame. Her face is not visible.
-> Background: cup, straw wrapper, glass, thinned rain. Negative space covers 60%+ of the frame.
-> Do not add any new symbolic object — draw only what is in the scene.
-> Generate one standalone image containing only this single scene.
-> Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
-> **Do not render any text in this image.**
-> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
-> pure white (#ffffff) background, hatching for shade.
-> Draw a hand-drawn border/outline around the panel edge.
-> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, any text.
+> Keep the exact same character (Lua) from the attached character sheet — it is the
+> source of truth for her appearance. Same outfit and line style as the previous panel.
+> Scene: a wide shot of the window seat from a distance. Lua's small figure from behind,
+> earphones now removed, still facing the window. Negative space covers 60%+ of the frame.
+> Only a few droplets on the glass as props. No brand name or logo on the signage or cup.
+> Keep her small in the frame, but her silhouette from behind should still read clearly
+> even on a small screen.
+> Render this Korean text large, in neat handwriting style, in the top margin:
+> "이어폰을 뺐다. 창밖이 계속 그 곡이었다."
+> Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines,
+> black and white, pure white (#ffffff) background, hatching for shade,
+> minimal background description. Draw a hand-drawn border/outline around the panel edge.
+> Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background, logos or brand names.
 > 4:5 aspect ratio (1080x1350).
 > ```
+> ※ 한글이 깨지면 텍스트 없이 생성 후 손글씨 폰트로 후삽입.
 
 ---
 
 ## Stage 3 체크리스트
-- [x] **각 컷 프롬프트가 콘티의 `visible_action`에서 시작하는가** — 전 컷 "행동:"으로 시작
-- [x] 카메라 구도·거리가 콘티와 일치하는가 — 와이드/클로즈업/중경/디테일/중경
-- [x] 생활 디테일이 프롬프트에 들어갔는가 — 빨대 비닐 (컷3·컷4·여운)
-- [x] **"한 장면만" 문구가 모든 컷에 있는가**
-- [x] **무대사 컷에 "글자를 넣지 마" 지시가 있는가** — 컷2·여운
-- [x] **본편 프롬프트에 에피소드 제목·컷 번호가 들어가지 않았는가**
-- [x] 표지는 0번 실사 배경 콜라주 워크플로로 별도 작성됐는가
-- [x] 컷1~4·여운 모두 character_sheet.png 첨부 지시 포함
+- [x] 표지(1장)는 0번 실사 배경 콜라주 워크플로로 별도 작성됐는가 (나머지 5장과 다른 방식)
+- [x] 컷1~4·여운(2~6장) 모두 character_sheet.png 첨부 지시 포함
 - [x] 3장부터 직전 컷 첨부 지시 포함
 - [x] 매 컷 스타일 고정 문구 + 금지 문구 포함
 - [x] 화면 텍스트 원문이 따옴표로 정확히 명시됨
 - [x] 배경색 흰색(#ffffff), 비율 4:5(1080×1350) 지시가 모든 컷에 있는가
-- [x] 로고·브랜드명 노출 금지 지시가 있는가 (간판·컵·휴대폰 화면 포함)
-- [x] 감정 형용사 반복·장면에 없는 상징물이 없는가
+- [x] 펜선 두껍게, 컷 외곽선, 캐릭터·텍스트 크게 지시가 있는가
+- [x] 로고·브랜드명 노출 금지 지시가 있는가 (카페 간판·컵 포함, 매 컷)
