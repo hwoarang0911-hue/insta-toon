@@ -3,10 +3,14 @@
 > **검수 기준의 원문은 `brand/11_STORY_TYPES.md` 11장이다.**
 > 이 문서는 그 체크리스트를 **어떻게 돌리는지**만 정의한다. 기준을 여기에 복제하지 않는다.
 
+> ## ⚠️ 대사는 글자수로 판단하지 않는다
+> `brand/11_STORY_TYPES.md` 8장의 **유형별 권장 총 대사량 표는 이 저장소에서 쓰지 않는다.**
+> 대사의 양은 **말의 흐름이 자연스러운가**와 **그림이 텍스트에 묻히지 않는가**로만 본다.
+> 글자수를 세지 않는다.
+
 > ## ⚠️ 이건 통과 게이트가 아니라 점검 도구다
 > **항목을 못 맞췄다고 이야기를 깎지 않는다.** 다 쓴 뒤 한 번 훑어보는 용도다.
 > 특히 아래 세 가지는 수치를 맞추려다 이야기를 망치기 쉬우니 주의한다:
-> - **대사 글자수** — 사색이 살아있는 문장을 글자수 때문에 자르지 않는다
 > - **무대사 컷 개수** — 개수를 채우려고 필요한 독백을 지우지 않는다
 > - **삭제 테스트** — **교훈으로 확장한 문장**을 지우라는 뜻이지, 루아가 알아챈 것 자체를 지우라는 뜻이 아니다
 >
@@ -51,29 +55,6 @@ Stage 2(콘티)를 마친 뒤 아래 순서로 훑는다.
 grep -nE "결국|어쩌면|문득|그제야|우리 모두|인생|진정한|소중한|깨았다|깨달았다|의미 있는|나다운|본질|행복이란" \
   episodes/epNNN_*/02_storyboard.md episodes/epNNN_*/04_caption.md
 ```
-
-### 대사 총 글자수 (동 문서 8장 유형별 상한)
-
-```bash
-python3 - <<'EOF'
-import re,sys,glob
-p = sorted(glob.glob("episodes/ep*/02_storyboard.md"))[-1]
-seg = open(p).read().split("## 이미지에 들어가는 글자")[1].split("\n## ")[0]
-rows = re.findall(r'^\|\s*(\d[^|]*?)\s*\|\s*([^|]*?)\s*\|\s*(.*?)\s*\|$', seg, re.M)
-lines = [t for n,_,t in rows if t not in ("없음","문구","") and not n.startswith("1")]
-print(p)
-for l in lines: print(f"  {len(l.replace(chr(60)+'br'+chr(62),''))}자  {l}")
-print("총", sum(len(l) for l in lines), "자")
-EOF
-```
-
-| 유형 | 상한 | 유형 | 상한 |
-|---|---|---|---|
-| OBSERVE | 20~40자 | CINEMA | 0~15자 |
-| RELATE | 25~60자 | CULTURE | 20~50자 |
-| STORY | 30~70자 | DIARY | 10~40자 |
-| TASTE | 15~45자 | DEADPAN | 20~55자 |
-| REFLECTION | 30~70자 | SILENCE | 0자 |
 
 ### 구도 반복 (동 문서 10장)
 
