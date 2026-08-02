@@ -73,8 +73,8 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 · 캐릭터 크기: 화면에서 작아지지 않게. 작은 화면에서도 형태가 뚜렷이 보이는 크기로.
 · 그림체: 손으로 그린 만년필 펜 스케치. 선은 두껍고 불규칙하다.
   흑백, 배경색은 흰색(#ffffff), 음영은 해칭(빗금)으로만. 배경 묘사는 짧게.
-· 이 화의 그림 규칙: **유리 안쪽(실내)은 선을 거의 쓰지 않고 비운다.**
-  유리 너머(창밖 한여름)만 해칭을 촘촘히 해서 뜨겁게 보이게 한다.
+· 이 화의 감정 규칙: **입꼬리를 올리는 미소 표정을 어느 컷에도 그리지 마.**
+  가장 감정이 큰 컷(5장)도 표정은 "집중"까지만 — 눈매가 살짝 진지해지는 정도.
 · 프레임: 컷 가장자리에 손으로 그린 테두리선을 두를 것.
 · 금지: 3D, 사실적인 피부, 일본 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경,
         로고·브랜드명, 장면에 없는 상징물.
@@ -84,7 +84,8 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 
 === 지금 만들 것 ===
 [2장 · 컷1]
-행동: 한여름 오후, 더위를 피해 들어온 루아가 창가 자리에 앉는다. 앉는 동작에 어깨의 가방끈이 팔꿈치까지 흘러내린다.
+행동: 한여름 오후, 더위를 피해 들어온 루아가 창가 자리에 앉아 이어폰을 끼고 재생 버튼을 누른다.
+      앉는 동작에 어깨의 가방끈이 팔꿈치까지 흘러내린다.
 구도: 공간 와이드숏 / 카메라 거리 와이드 — 실내 전체가 보이고 루아는 그 안에 있다.
 배경: 높은 층고, 흰 타일 벽, 큰 창으로 들어오는 흰 햇빛. 실내는 선을 적게 써서 서늘하고 조용해 보이게.
       위쪽 여백을 넓게 남겨 층고를 살린다.
@@ -95,35 +96,34 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 === 아래는 이후 순서. 지금 만들지 말 것 ===
 
 [3장 · 컷2]
-행동: 이어폰을 낀 채 듣고 있다. 무언가를 처음 알아채는 순간, 눈이 아주 조금 움직인다.
-구도: 얼굴 일부 — 귀와 이어폰, 눈 아래까지만 / 카메라 거리 클로즈업.
-배경: 흐린 밝은 면만. 이 컷에서는 실내도 창밖도 보이지 않는다 — 소리 안에만 있다.
-표정: 고민 중.
-넣을 글자 — 상단: "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다."
-             하단에 작게: "이거 원래 있었나?"
+행동: 테이블 위 손끝. 듣다가 낮게 깔린 소리를 처음 알아채고, 그 박자를 따라 손끝으로
+      테이블을 톡, 톡 짚어본다. **얼굴은 프레임 밖.**
+구도: 손 디테일 — 손끝과 테이블 표면만 / 카메라 거리 디테일.
+배경: 테이블 표면만, 나머지는 거의 여백.
+넣을 글자 — 상단: "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다. 손끝으로 박자를 짚어봤다."
 
 [4장 · 컷3]
-행동: 고개를 들어 창밖을 본다. 아스팔트 위로 아지랑이가 올라오고, 사람들은 그늘 쪽으로만 붙어 걷고,
-      가로수 잎은 하나도 안 움직인다. 한여름 대낮이 그대로 있다.
-구도: 캐릭터 시점 — 루아가 보는 창밖. 화면 아래쪽에 유리와 컵 윗부분만 걸친다 / 카메라 거리 중경.
-      루아의 얼굴은 보이지 않는다.
-배경: **유리 안쪽은 선을 거의 비우고, 유리 너머만 해칭으로 빽빽하고 뜨겁게.**
-      사람들은 얼굴 없는 실루엣으로만. 잎은 하나도 흔들리지 않게 그린다.
+행동: 얼굴 클로즈업. 손끝으로 짚은 박자와 이어폰 속 소리가 같다는 걸 확인한 순간,
+      눈이 아주 조금 커진다.
+구도: 얼굴 클로즈업 — 눈과 이어폰 낀 귀까지 / 카메라 거리 클로즈업.
+배경: 흐린 밝은 면만. **창밖도 카페 내부도 보여주지 않는다** — 확인은 이 얼굴 하나로 끝난다.
+표정: 알아채는 순간 (눈이 살짝 커짐). 미소 아님.
 이미지 안에 글자를 넣지 마. (무대사 컷)
 
 [5장 · 컷4]
-행동: 창밖에서 눈을 떼지 않은 채 옆모습. 옅은 미소. 이어폰 줄에 손이 올라가 있다.
+행동: 이어폰 줄에 손이 올라가 있고, 다른 손은 휴대폰 화면의 재생 바를 뒤로 미는 중.
+      옆모습, 살짝 앞으로 기운 자세.
 구도: 옆모습 / 카메라 거리 중경(허리 위).
 배경: 창빛과 유리만. 여백 크게.
-표정: 옅은 미소.
-넣을 글자 — 상단: "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-             하단에 작게: "이 사람한테도 여름은 이랬겠지."
+표정: 집중. **입꼬리를 올리지 않는다.**
+넣을 글자 — 상단: "다시 앞으로 돌려서 들었다. 이번엔 놓치지 않았다."
 
 [6장 · 여운]
-행동: 테이블 위. 다 식은 커피컵을 쥔 손. 팔꿈치엔 아까 흘러내린 가방끈이 그대로 걸려 있다.
-구도: 손 디테일 — 컵과 손, 가방끈 끝 / 카메라 거리 디테일. 얼굴은 프레임 밖.
-배경: 테이블 표면과 컵 아랫부분만. 여백 크게. 컵에 로고 금지.
-넣을 글자 — 상단 여백에: "커피가 다 식을 때까지 그 부분만 계속 들었다."
+행동: 테이블 위. 휴대폰 재생 바 옆에 놓인 손, 손끝이 아직 리듬을 짚고 있다.
+      팔꿈치엔 아까 흘러내린 가방끈이 그대로 걸려 있다.
+구도: 테이블 전체와 컵, 휴대폰이 함께 보이는 중경 / 카메라 거리 중경. 얼굴은 프레임 밖.
+배경: 테이블 표면 전체. 여백 크게. 컵과 휴대폰에 로고 금지.
+넣을 글자 — 상단 여백에: "그 부분만 세 번 더 돌려 들었다."
 ```
 
 ## (B) 통합 프롬프트 — 영어판 · ChatGPT용
@@ -150,8 +150,9 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 · Character size: keep her large enough to read clearly on a small (mobile) screen.
 · Style: hand-drawn fountain pen sketch. Thick, irregular, wobbly ink lines. Black and white
   on a pure white (#ffffff) background. Shading only through hatching. Background kept brief.
-· Episode-specific rule: **leave the interior side of the glass almost empty of linework.**
-  Only what is beyond the glass (the midsummer street) gets dense hatching, so it reads as hot.
+· Episode-specific rule: **do not draw a smiling expression, on any panel.**
+  Even the most emotional panel (panel 5) stops at "focused" — eyes narrowing slightly, no raised
+  corners of the mouth.
 · Frame: draw a hand-drawn border/outline around the edge of each panel.
 · Avoid: 3D, realistic skin, Japanese anime style, glossy webtoon coloring, gradients,
   complex backgrounds, logos or brand names, symbolic objects not in the scene.
@@ -161,8 +162,8 @@ IMPORTANT 2 — Generate ONLY [Panel 2] right now.
 
 === GENERATE PANEL 2 ONLY. THE REST COME LATER ===
 [Panel 2 · cut 1]
-Action: a midsummer afternoon. Escaping the heat, Lua sits down at a window table. As she sits,
-  her bag strap slides off her shoulder down to her elbow.
+Action: a midsummer afternoon. Escaping the heat, Lua sits down at a window table, puts in her
+  earphones, and presses play. As she sits, her bag strap slides off her shoulder down to her elbow.
 Composition: wide establishing shot / camera distance WIDE — the whole room is visible and she
   is inside it.
 Background: high ceiling, white tiled walls, large windows with flat white daylight. Keep the
@@ -174,41 +175,36 @@ Render this Korean text large, in neat handwriting style:
 === BELOW: LATER PANELS. DO NOT GENERATE YET ===
 
 [Panel 3 · cut 2]
-Action: she is listening through her earphones. At the moment she first notices something, her
-  eyes shift very slightly.
-Composition: partial face — only her ear, the earphone, and down to just below her eyes /
-  camera distance CLOSE-UP.
-Background: only a blurred bright plane. Neither the room nor the street is visible here —
-  she is inside the sound.
-Expression: pondering.
-Text — top: "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다."
-       small, bottom: "이거 원래 있었나?"
+Action: the tabletop, her fingertip. She first notices something low sitting under the melody,
+  and taps the table lightly with her fingertip, following the beat. **Her face is out of frame.**
+Composition: hand detail — only her fingertip and the table surface / camera distance DETAIL.
+Background: only the table surface, mostly negative space.
+Text — top: "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다. 손끝으로 박자를 짚어봤다."
 
 [Panel 4 · cut 3]
-Action: she looks up and out the window. Heat shimmer rises off the asphalt, people walk hugging
-  the shade, and not one leaf on the street trees is moving. The midsummer afternoon is simply there.
-Composition: her point of view — the street through the glass, with only the glass and the top of
-  her cup entering the bottom of the frame / camera distance MEDIUM. Her face is not visible.
-Background: **keep the interior side of the glass nearly empty of linework; give only what is
-  beyond the glass dense, hot hatching.** People are faceless silhouettes. No leaf moves.
+Action: a close-up on her face. The moment she confirms the beat her fingertip tapped matches
+  the sound in her ears, her eyes widen just slightly.
+Composition: close-up on her face — eyes and the earphone-wearing ear / camera distance CLOSE-UP.
+Background: only a blurred bright plane. **Show neither the street nor the café interior** —
+  the confirmation happens on this face alone.
+Expression: the moment of noticing (eyes widen slightly). Not a smile.
 Do not render any text in this image. (silent panel)
 
 [Panel 5 · cut 4]
-Action: still not taking her eyes off the window, seen in profile, a faint smile, one hand
-  raised to the earphone cord.
+Action: one hand raised to the earphone cord, the other hand scrubbing the phone's playback bar
+  backward. Side profile, leaning slightly forward.
 Composition: side profile / camera distance MEDIUM (waist up).
 Background: only window light and glass. Generous negative space.
-Expression: faint smile.
-Text — top: "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-       small, bottom: "이 사람한테도 여름은 이랬겠지."
+Expression: focused. **Do not raise the corners of the mouth.**
+Text — top: "다시 앞으로 돌려서 들었다. 이번엔 놓치지 않았다."
 
 [Panel 6 · closing]
-Action: the tabletop. A hand around a cup of coffee gone cold. The bag strap is still hanging at
-  her elbow where it slid earlier.
-Composition: hand detail — the cup, the hand, the end of the strap / camera distance DETAIL.
-  Her face is out of frame.
-Background: only the table surface and the base of the cup. Generous negative space. No logo on the cup.
-Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속 들었다."
+Action: the tabletop. A hand resting beside the phone's playback bar, fingertip still faintly
+  tracing the rhythm. The bag strap is still hanging at her elbow where it slid earlier.
+Composition: a medium shot showing the whole table, the cup, and the phone together /
+  camera distance MEDIUM. Her face is out of frame.
+Background: the full table surface. Generous negative space. No logo on the cup or phone.
+Text — in the top margin: "그 부분만 세 번 더 돌려 들었다."
 ```
 
 ## (C) 후보정용 글자표
@@ -231,7 +227,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 ## 스타일 고정 문구
 - 한국어: "손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영, 배경 묘사는 짧게, 캐릭터는 화면에서 작지 않게, 컷 가장자리에 테두리선, 4:5 비율"
 - 영어: "hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white, pure white (#ffffff) background, hatching for shade, minimal background description, hand-drawn panel border, 4:5 aspect ratio"
-- 네거티브: "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명, 에피소드 제목·컷 번호, 장면에 없는 상징물"
+- 네거티브: "3D, 사실적 피부, 애니풍, 웹툰 광택, 그라데이션, 복잡한 배경, 로고·브랜드명, 에피소드 제목·컷 번호, 장면에 없는 상징물, 미소 표정"
 
 ---
 
@@ -241,7 +237,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > **첨부**: character_sheet.png
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 세부 외형은 그 시트가 기준이다.
-> 행동: 한여름 오후, 더위를 피해 들어온 루아가 창가 자리에 앉는다.
+> 행동: 한여름 오후, 더위를 피해 들어온 루아가 창가 자리에 앉아 이어폰을 끼고 재생 버튼을 누른다.
 >       앉는 동작에 어깨의 가방끈이 팔꿈치까지 흘러내린다.
 > 구도: 공간 와이드숏. 카메라 거리는 와이드 — 실내 전체가 보이고 루아는 그 안에 있다.
 > 배경: 층고 높은 커피 전문점. 흰 타일 벽, 원목 바 카운터, 큰 창으로 들어오는 흰 햇빛.
@@ -264,8 +260,8 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > Keep the exact same character (Lua) from the attached character sheet — it is the source of
 > truth for her appearance: a Korean woman in her mid-20s, shoulder-length wavy black hair,
 > tiny dot eyes, calm minimal expression, plain long-sleeve top and wide pants, a boxy tote bag.
-> Action: a midsummer afternoon. Escaping the heat, Lua sits down at a window table. As she sits,
-> her bag strap slides off her shoulder down to her elbow.
+> Action: a midsummer afternoon. Escaping the heat, Lua sits down at a window table, puts in her
+> earphones, and presses play. As she sits, her bag strap slides off her shoulder down to her elbow.
 > Composition: wide establishing shot / camera distance WIDE — the whole room is visible and she
 > is inside it.
 > Background: a high-ceilinged coffee shop. White tiled walls, a wooden bar counter, large windows
@@ -287,21 +283,20 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 
 ---
 
-## 3장 — 컷2 (클로즈업)
+## 3장 — 컷2 (디테일 · 손끝 · 얼굴 안 보임)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(2장)
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 이어폰을 낀 채 듣고 있다. 무언가를 처음 알아채는 순간, 눈이 아주 조금 움직인다.
-> 구도: 얼굴 일부 — 귀와 이어폰, 눈 아래까지만. 카메라 거리는 클로즈업.
-> 배경: 흐린 밝은 면만. 이 컷에서는 실내도 창밖도 보이지 않는다 — 소리 안에만 있다.
-> 표정: 고민 중. 놀람은 눈이 조금 움직이는 정도까지만.
+> 행동: 테이블 위, 손끝. 듣다가 낮게 깔린 소리를 처음 알아채고, 그 박자를 따라
+>       손끝으로 테이블을 톡, 톡 짚어본다. **얼굴은 프레임 밖.**
+> 구도: 손 디테일 — 손끝과 테이블 표면만. 카메라 거리는 디테일.
+> 배경: 테이블 표면만, 나머지는 거의 여백. 손가락 동작이 리듬감 있게 보이도록.
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
-> 상단 — "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다."
-> 하단에 작게 — "이거 원래 있었나?"
+> "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다. 손끝으로 박자를 짚어봤다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
@@ -313,18 +308,15 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > ```
 > Keep the exact same character (Lua) from the attached character sheet. Carry over the line
 > style of the previous panel.
-> Action: she is listening through her earphones. At the moment she first notices something, her
-> eyes shift very slightly.
-> Composition: partial face — only her ear, the earphone, and down to just below her eyes /
-> camera distance CLOSE-UP.
-> Background: only a blurred bright plane. Neither the room nor the street is visible here —
-> she is inside the sound.
-> Expression: pondering. Surprise never goes past a slight eye movement.
+> Action: the tabletop, her fingertip. She first notices something low sitting under the melody,
+> and taps the table lightly with her fingertip, following the beat. **Her face is out of frame.**
+> Composition: hand detail — only her fingertip and the table surface / camera distance DETAIL.
+> Background: only the table surface, mostly negative space. The finger motion should read
+> with a sense of rhythm.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
 > Render this Korean text large, in neat handwriting style:
-> Top — "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다."
-> Small, bottom — "이거 원래 있었나?"
+> "선율은 느린데 그 아래에서 뭐가 계속 낮게 깔려 있다. 손끝으로 박자를 짚어봤다."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
@@ -335,26 +327,23 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 
 ---
 
-## 4장 — 컷3 (중경 · 캐릭터 시점 · **무대사**)
+## 4장 — 컷3 (클로즈업 · 얼굴 · **무대사**)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(3장)
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 고개를 들어 창밖을 본다. 아스팔트 위로 아지랑이가 올라오고, 사람들은 그늘 쪽으로만 붙어 걷고,
->       가로수 잎은 하나도 안 움직인다. 한여름 대낮이 그대로 있다.
-> 구도: 캐릭터 시점 — 루아가 보는 창밖을 그린다. 화면 아래쪽에 유리와 컵 윗부분만 걸친다.
->       카메라 거리는 중경. **루아의 얼굴은 보이지 않는다.**
-> 배경: 이 화에서 유일하게 선이 빽빽한 컷. **유리 안쪽(실내)은 선을 거의 비우고,
->       유리 너머(창밖)만 해칭을 촘촘히 해서 뜨겁게 보이게 한다.** 사람들은 얼굴 없는 실루엣으로만.
->       잎은 하나도 흔들리지 않게 그린다.
-> 간판·컵·앞치마에 브랜드 이름이나 로고를 넣지 마.
+> 행동: 얼굴 클로즈업. 손끝으로 짚은 박자와 이어폰 속 소리가 같다는 걸 확인한 순간,
+>       눈이 아주 조금 커진다.
+> 구도: 얼굴 클로즈업 — 눈과 이어폰 낀 귀까지. 카메라 거리는 클로즈업.
+> 배경: 흐린 밝은 면만. **창밖도 카페 내부도 보여주지 않는다** — 확인은 이 얼굴 하나로 끝난다.
+> 표정: 알아채는 순간 (눈이 살짝 커짐). **미소가 아니다.**
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
 > **이미지 안에 글자를 넣지 마.**
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 글자 일체, 미소 표정.
 > 4:5 비율(1080×1350).
 > ```
 
@@ -363,14 +352,12 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > ```
 > Keep the exact same character (Lua) from the attached character sheet. Carry over the line
 > style of the previous panel.
-> Action: she looks up and out the window. Heat shimmer rises off the asphalt, people walk hugging
-> the shade, and not one leaf on the street trees is moving. The midsummer afternoon is simply there.
-> Composition: her point of view — the street through the glass, with only the glass and the top of
-> her cup entering the bottom of the frame / camera distance MEDIUM. **Her face is not visible.**
-> Background: the only densely drawn panel in this episode. **Keep the interior side of the glass
-> nearly empty of linework; give only what is beyond the glass dense, hot hatching.**
-> People are faceless silhouettes. No leaf moves.
-> No brand name or logo on signage, cups, or aprons.
+> Action: a close-up on her face. The moment she confirms the beat her fingertip tapped matches
+> the sound in her ears, her eyes widen just slightly.
+> Composition: close-up on her face — eyes and the earphone-wearing ear / camera distance CLOSE-UP.
+> Background: only a blurred bright plane. **Show neither the street nor the café interior** —
+> the confirmation happens on this face alone.
+> Expression: the moment of noticing (eyes widen slightly). **Not a smile.**
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
 > **Do not render any text in this image.**
@@ -378,7 +365,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
 > Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, any text.
+>        logos or brand names, any text, a smiling expression.
 > 4:5 aspect ratio (1080x1350).
 > ```
 
@@ -390,19 +377,19 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > **첨부**: character_sheet.png + 직전 컷(4장)
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 창밖에서 눈을 떼지 않은 채 옆모습. 옅은 미소. 이어폰 줄에 손이 올라가 있다.
+> 행동: 이어폰 줄에 손이 올라가 있고, 다른 손은 휴대폰 화면의 재생 바를 뒤로 미는 중.
+>       옆모습, 살짝 앞으로 기운 자세.
 > 구도: 옆모습, 허리 위. 카메라 거리는 중경.
-> 배경: 창빛과 유리만. 여백 크게. **창밖 풍경은 이제 자세히 그리지 않는다.**
-> 표정: 옅은 미소 (좋아하는 순간 → 미소). 과장하지 않는다.
-> 컵에 로고나 브랜드명을 넣지 마.
+> 배경: 창빛과 유리만. 여백 크게.
+> 표정: 집중. **입꼬리를 올리지 않는다 — 미소가 아니다.**
+> 휴대폰 화면·컵에 로고나 브랜드명을 넣지 마.
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
-> 상단 — "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-> 하단에 작게 — "이 사람한테도 여름은 이랬겠지."
+> "다시 앞으로 돌려서 들었다. 이번엔 놓치지 않았다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
-> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
+> 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목, 미소 표정.
 > 4:5 비율(1080×1350).
 > ```
 
@@ -411,43 +398,42 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > ```
 > Keep the exact same character (Lua) from the attached character sheet. Carry over the line
 > style of the previous panel.
-> Action: still not taking her eyes off the window, seen in profile, a faint smile, one hand
-> raised to the earphone cord.
+> Action: one hand raised to the earphone cord, the other hand scrubbing the phone's playback bar
+> backward. Side profile, leaning slightly forward.
 > Composition: side profile, waist up / camera distance MEDIUM.
-> Background: only window light and glass. Generous negative space. **Do not render the street
-> outside in detail anymore.**
-> Expression: a faint smile. Do not exaggerate.
-> No logo or brand name on the cup.
+> Background: only window light and glass. Generous negative space.
+> Expression: focused. **Do not raise the corners of the mouth — not a smile.**
+> No logo or brand name on the phone screen or the cup.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
 > Render this Korean text large, in neat handwriting style:
-> Top — "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-> Small, bottom — "이 사람한테도 여름은 이랬겠지."
+> "다시 앞으로 돌려서 들었다. 이번엔 놓치지 않았다."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
 > Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, complex background,
->        logos or brand names, episode titles.
+>        logos or brand names, episode titles, a smiling expression.
 > 4:5 aspect ratio (1080x1350).
 > ```
 
 ---
 
-## 6장 — 여운 (디테일 · 손)
+## 6장 — 여운 (중경 · 테이블)
 
 ### 🍌 나노바나나 (Gemini)
 > **첨부**: character_sheet.png + 직전 컷(5장)
 > ```
 > 첨부한 캐릭터 시트의 캐릭터(루아)를 그대로 유지해서 그려줘. 직전 컷의 선 스타일을 이어갈 것.
-> 행동: 테이블 위. 다 식은 커피컵을 쥔 손. 어깨에서 흘러내린 가방끈이 아직 팔꿈치에 걸려 있다.
-> 구도: 손 디테일 — 컵과 손, 가방끈 끝. 카메라 거리는 디테일(가까이). **얼굴은 프레임 밖.**
-> 배경: 테이블 표면과 컵 아랫부분만. 여백을 크게 남긴다.
-> 컵에 로고나 브랜드명을 넣지 마.
+> 행동: 테이블 위. 휴대폰 재생 바 옆에 놓인 손, 손끝이 아직 리듬을 짚고 있다.
+>       팔꿈치엔 아까 흘러내린 가방끈이 그대로 걸려 있다.
+> 구도: 테이블 전체와 컵, 휴대폰이 함께 보이는 중경. 카메라 거리는 중경. **얼굴은 프레임 밖.**
+> 배경: 테이블 표면 전체. 여백을 크게 남긴다.
+> 컵과 휴대폰 화면에 로고나 브랜드명을 넣지 마.
 > 새로운 상징물을 넣지 마. 장면에 있는 것만 그린다.
 > 이 한 장면만 담은 독립된 이미지 하나를 만들어줘.
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
 > 이미지 안에 다음 한글 텍스트를 상단 여백에 손글씨 느낌으로 크게 넣어줘:
-> "커피가 다 식을 때까지 그 부분만 계속 들었다."
+> "그 부분만 세 번 더 돌려 들었다."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
@@ -459,17 +445,17 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > ```
 > Keep the exact same character (Lua) from the attached character sheet. Carry over the line
 > style of the previous panel.
-> Action: the tabletop. A hand around a cup of coffee gone cold. The bag strap is still hanging
-> at her elbow where it slid earlier.
-> Composition: hand detail — the cup, the hand, the end of the strap / camera distance DETAIL.
-> **Her face is out of frame.**
-> Background: only the table surface and the base of the cup. Generous negative space.
-> No logo or brand name on the cup.
+> Action: the tabletop. A hand resting beside the phone's playback bar, fingertip still faintly
+> tracing the rhythm. The bag strap is still hanging at her elbow where it slid earlier.
+> Composition: a medium shot showing the whole table, the cup, and the phone together /
+> camera distance MEDIUM. **Her face is out of frame.**
+> Background: the full table surface. Generous negative space.
+> No logo or brand name on the cup or the phone screen.
 > Do not add any new symbolic object — draw only what is in the scene.
 > Generate one standalone image containing only this single scene.
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
 > Render this Korean text in the top margin, large, in neat handwriting style:
-> "커피가 다 식을 때까지 그 부분만 계속 들었다."
+> "그 부분만 세 번 더 돌려 들었다."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
@@ -482,7 +468,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 
 ## Stage 3 체크리스트
 - [x] 각 컷 프롬프트가 콘티의 행동에서 시작하는가 — 전 컷 "행동:" / "Action:"으로 시작
-- [x] 카메라 구도·거리가 콘티와 일치하는가 — 와이드/클로즈업/중경/중경/디테일
+- [x] 카메라 구도·거리가 콘티와 일치하는가 — 와이드/디테일/클로즈업/중경/중경
 - [x] 생활 디테일이 프롬프트에 들어갔는가 — 가방끈 (컷1·여운)
 - [x] "한 장면만" 문구가 모든 컷에 있는가
 - [x] 무대사 컷에 "글자를 넣지 마" 지시가 있는가 — 컷3
@@ -493,3 +479,4 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 - [x] **로고·브랜드명 금지 지시가 있는가** — 간판·컵·앞치마·휴대폰 화면 전부
 - [x] 배경색 흰색(#ffffff), 비율 4:5(1080×1350) 지시가 모든 컷에 있는가
 - [x] 감정 형용사 반복·장면에 없는 상징물이 없는가
+- [x] **미소 결말·창밖 목격 금지 지시가 전 컷에 있는가** (`brand/11_STORY_TYPES.md` 17장)
