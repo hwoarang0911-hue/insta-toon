@@ -117,7 +117,7 @@ Avoid: 3D, realistic skin, anime style, glossy webtoon coloring, gradients, back
 배경: 창빛과 유리만. 여백 크게.
 표정: 옅은 미소.
 넣을 글자 — 상단: "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-             하단에 작게: "이 사람도 여름에 제대로 못 쉬어봤겠지."
+             하단에 작게: "이 사람한테도 여름은 이랬겠지."
 
 [6장 · 여운]
 행동: 테이블 위. 다 식은 커피컵을 쥔 손. 팔꿈치엔 아까 흘러내린 가방끈이 그대로 걸려 있다.
@@ -200,7 +200,7 @@ Composition: side profile / camera distance MEDIUM (waist up).
 Background: only window light and glass. Generous negative space.
 Expression: faint smile.
 Text — top: "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-       small, bottom: "이 사람도 여름에 제대로 못 쉬어봤겠지."
+       small, bottom: "이 사람한테도 여름은 이랬겠지."
 
 [Panel 6 · closing]
 Action: the tabletop. A hand around a cup of coffee gone cold. The bag strap is still hanging at
@@ -399,7 +399,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > 만화 격자, 콜라주, 분할 화면을 만들지 마. 다른 컷의 문구를 넣지 마.
 > 이미지 안에 다음 한글 텍스트를 손글씨 느낌으로 크게, 정확히 넣어줘:
 > 상단 — "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-> 하단에 작게 — "이 사람도 여름에 제대로 못 쉬어봤겠지."
+> 하단에 작게 — "이 사람한테도 여름은 이랬겠지."
 > 스타일: 손으로 그린 만년필 펜 스케치, 두껍고 불규칙한 선, 흑백, 흰색(#ffffff) 배경, 해칭 음영.
 > 컷 가장자리에 손그림 테두리선을 둘러줘.
 > 금지: 3D, 사실적 피부, 애니풍, 웹툰 광택, 복잡한 배경, 로고·브랜드명, 에피소드 제목.
@@ -422,7 +422,7 @@ Text — in the top margin: "커피가 다 식을 때까지 그 부분만 계속
 > Do not create a comic grid, collage, or split screen. Do not include text from any other panel.
 > Render this Korean text large, in neat handwriting style:
 > Top — "밖은 아까부터 계속 저러고 있었다. 아, 안 들리던 게 아니라 안 듣고 있었구나."
-> Small, bottom — "이 사람도 여름에 제대로 못 쉬어봤겠지."
+> Small, bottom — "이 사람한테도 여름은 이랬겠지."
 > Style: hand-drawn fountain pen sketch, thick irregular wobbly ink lines, black and white,
 > pure white (#ffffff) background, hatching for shade.
 > Draw a hand-drawn border/outline around the panel edge.
